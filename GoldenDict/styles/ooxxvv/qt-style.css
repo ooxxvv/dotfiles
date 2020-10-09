@@ -1,0 +1,18 @@
+/*
+ * 標籤：包括搜尋框 (searchPane)、結果導覽框 (dictsPane)、歷史紀錄 (historyPane) 上方的 TitleBar
+ * 選單：這會更改所有的選單，包括：選單列、結果內容、結果內容的尋找欄、查詢欄、結果導覽框的標題列、歷史紀錄
+ */
+QToolTip, QLabel, QMenu {
+    font-family: "PingFang TC Medium", "Noto Sans CJK TC Medium", "Microsoft JhengHei";
+    font-size: 16px;
+}
+
+/* 工具列中的查詢欄；不顯示搜尋框時才會有 */
+#navToolbar #translateLine {
+    font-family: "PingFang TC Medium", "Noto Sans CJK TC Medium", "Microsoft JhengHei";
+    font-size: 18px;
+}
+
+
+
+

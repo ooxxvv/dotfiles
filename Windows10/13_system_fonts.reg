@@ -1,0 +1,25 @@
+Windows Registry Editor Version 5.00
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; MingLiu & SimSun to PingFang TC Medium
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts]
+"MingLiU & PMingLiU & MingLiU_HKSCS (TrueType)"="PingFang TC W5 Medium.ttf"
+"MingLiU-ExtB & PMingLiU-ExtB & MingLiU_HKSCS-ExtB (TrueType)"="PingFang TC W5 Medium.ttf"
+"SimSun & NSimSun (TrueType)"="PingFang TC W5 Medium.ttf"
+"SimSun-ExtB (TrueType)"="PingFang TC W5 Medium.ttf"
+"DFKai-SB (TrueType)"="PingFang TC W5 Medium.ttf"
+"Microsoft JhengHei & Microsoft JhengHei UI (TrueType)"=-
+"Microsoft JhengHei Bold & Microsoft JhengHei UI Bold (TrueType)"=-
+"Microsoft JhengHei Light & Microsoft JhengHei UI Light (TrueType)"=-
+"Microsoft JhengHei (TrueType)"="msjh.ttc"
+"Microsoft JhengHei Bold (TrueType)"="msjhbd.ttc"
+"Microsoft JhengHei Light (TrueType)"="msjhl.ttc"
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Set System & UI fonts to Noto Sans CJK TC Medium
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontSubstitutes]
+"System"="PingFang TC Medium"
+"Segoe UI"="PingFang TC Medium"
+"MS Shell Dlg"="PingFang TC Medium"
+"MS Shell Dlg 2"="PingFang TC Medium"
+"Microsoft Sans Serif"="PingFang TC Medium"
+"Microsoft JhengHei UI"="PingFang TC Medium"

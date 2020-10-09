@@ -1,0 +1,61 @@
+# Rime schema
+# encoding: utf-8
+schema:
+  name: bô-siánn-mih
+  schema_id: bosiannmih
+  version: 1
+  author: "劉重次 / 泰瑞系列中文輸入法對照表 / ooxxvv "
+  description: bô-siánn-mih (嘸蝦米)
+
+switches:
+  - name: ascii_mode
+    reset: 1
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - speller
+    - selector
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - abc_segmentor
+  translators:
+    - table_translator
+  filters:
+    - uniquifier
+
+# 設定某些格式的文字不要自動組字，減少打字的中斷次數。
+# (可以用 Email 來測試沒有 recognizer/patterns 的情況)
+recognizer:
+  patterns:
+    # 第一個字是字母，且包含任何符號的字，就視為英文字
+    eng_word: "^[A-Za-z].*$"
+    email: "^[A-Za-z][-_.0-9A-Za-z]*@.*$"
+    url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
+
+# 雖然大寫字母不能當做字根，但仍然把大寫字母放進 alphabet 列表中，
+# 這會讓任何有包含大寫字母的單字直接輸入成為英文，以減少切換中英模式的次數，
+# (可以用iPhone 這個字來測試不放大寫字母的效果)
+# 小於五碼有包含大寫的字，用空白鍵或 Enter 都會輸出英文，
+# 小於五碼的全小寫英文字，用空白鍵會輸出中文，用 Enter 會輸出英文。
+# 例如：we+空白鍵會輸出「武」，we+Enter 會輸出「we」
+#       We+空白鍵會輸出「We」，We+Enter 也會輸出「We」
+speller:
+  alphabet: "abcdefghijklmnopqrstuvwxyz.,'[]ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+  max_code_length: 5
+  auto_select: false
+  use_space: true
+
+translator:
+  dictionary: bosiannmih
+  # 如果要讓所有的字根都可以輸入，可以把 enable_charset_filter 改成 false
+  enable_charset_filter: true
+  enable_encoder: false
+  enable_commit_history: true
+  enable_completion: false
+  enable_sentence: false
+  enable_user_dict: false
+
+

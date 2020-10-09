@@ -1,0 +1,31 @@
+﻿BIG File
+==================================
+ * Copy BIG_FILE/*.* form usb driver to D
+ * Copy dictionary to %AppData%\GoldenDict\Dictionary
+
+MS Office
+==================================
+ * Download & Install
+  * Dropbox/sData/MSoffice
+ * Active by run Excel once
+ 
+VSCode
+==================================
+ * Download & Install
+   * Disable: Context menu of File
+   * Disable: Context menu of Directory
+   * Enable: Link supported file types
+   * Enable: Add to PATH
+ * Run and Disable: Show welcome page on startup
+ * Extension
+   * Vim
+   * Remote - WSL extension
+ * Exit VSCode
+ * Run -> VSCode\10_config_vscode_windows.cmd
+ * Install VS Code Server on WSL
+   * cd /mnt/a/Code && code .
+
+Windows Scripts
+==================================
+ * Merge -> 51_icon_and_context_menu.reg
+ * Reboot

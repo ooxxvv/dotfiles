@@ -1,0 +1,109 @@
+"############################################################################
+" Settings for Vim (exclude GUI settings)
+"############################################################################
+"####################################################### File & Directory ###
+set noswapfile                      "disable swap files
+set autoread                        "auto load when file is changed
+set udf                             "undo history for file, not collisions
+set udir=$TMP,$TMPDIR,/tmp,.        "undo directory
+set backupdir=$TMP,$TMPDIR,/tmp,.   "backup directory
+set directory=$TMP,$TMPDIR,/tmp,.   "swap directory
+"------------------------------------auto change working directory
+au BufEnter * silent! lcd %:p:h
+
+"#################################################### Language & encoding ###
+language mes en_US.utf8                         "message/menu
+set encoding=utf-8                              "vim internal
+set termencoding=utf-8                          "terminal
+set fileencoding=utf-8                          "save new file
+set fileencodings=utf-8,big5,utf-bom,iso8859-1  "open files
+
+"################################################################ Display ###
+colorscheme PaperColor         "color scheme
+set background=dark            "background color type
+set t_Co=256                   "set vim to use 256 color
+set mousemodel=extend          "right click
+set number                     "display absolute line number (current line)
+set relativenumber             "display relative line number
+set cursorline                 "highlight current line
+set showcmd                    "show command messge in bottom line
+set history=60                 "records of command history
+set noeb novb ruler            "ruler for cursor position
+set wildmenu                   "display auto complete commands in a line
+set ai                         "automatic indenting
+set si                         "smart indenting in new line
+set nowrap                     "no auto wrap line
+set listchars=tab:▕»           "symbol of listchar (space, tab, cr...)
+source $VIMRUNTIME/mswin.vim   "ctrl-x, ctrl-c, ctrl-y as same as ms-windows
+
+"################################################################### Mode ###
+set backspace=indent,eol,start "delete special char in insert mode
+set ignorecase                 "ingnore character case when searching
+set incsearch                  "go to search word automatic
+set selection=inclusive        "include cursor when select text
+set keymodel=                  "select text by Shift+Arrow
+set selectmode=                "no select mode
+
+"############################################################ Tab & Space ###
+set tabstop=2                   "tab stop
+set softtabstop=2               "tab soft stop
+set shiftwidth=2                "tab shift width
+set expandtab                   "tab expand to space
+"--------------------------------delete trailing whitespace when saving
+au BufWritePre * :%s/\s\+$//e
+
+"################################################################ Folding ###
+set foldenable                 "enable folding
+set foldmethod=syntax          "folding method
+set foldcolumn=0               "folding column
+"-------------------------------folding level, auto set when open file
+au BufWinEnter * let &foldlevel = max(map(range(1, line('$')), 'foldlevel(v:val)'))
+"-------------------------------no folding until leaving insert mode.
+au InsertEnter * if !exists('w:last_fdm') | let w:last_fdm=&foldmethod | setlocal foldmethod=manual | endif
+au InsertLeave,WinLeave * if exists('w:last_fdm') | let &l:foldmethod=w:last_fdm | unlet w:last_fdm | endif
+
+"################################################################# Plugin ###
+"================================================================ Airline ===
+set laststatus=2                        "set status line
+let g:airline_theme = 'onedark'         "set airline theme
+
+"############################################################# File Types ###
+syntax on
+filetype on
+filetype plugin on
+
+"==================================================== File Type by Suffix ===
+au BufRead,BufNewFile *.html set filetype=htmldjango
+au BufRead,BufNewFile *.jtml set filetype=jinja
+au BufNewFile,BufRead *.csv  set filetype=csv
+
+"==================================================================== CSV ===
+au FileType csv set noexpandtab
+
+"=================================================================== Text ===
+au FileType text set noexpandtab
+
+"================================================================= Python ===
+au FileType python set tabstop=4
+au FileType python set softtabstop=4
+au FileType python set shiftwidth=4
+au FileType python set expandtab
+au FileType python set autoindent
+au FileType python set foldmethod=indent
+au FileType python set foldtext=substitute(getline(v:foldstart),'\\t','\ \ \ \ ','g')
+
+"============================================================= TypeScript ===
+au FileType typescript JsPreTmpl
+au FileType typescript syn clear foldBraces
+
+"################################################################# KeyMap ###
+let mapleader=","                               "change leader key
+"------------------------------------------------Navication in Insert Mode
+imap <C-o> <ESC><C-o>
+"------------------------------------------------Block Visual Model
+nnoremap <leader>j <C-q>j
+
+"============================================================== F1 to F12 ===
+"------------------------------------------------Open Quickfix List
+map  <F8> <Esc>:copen<CR>
+imap <F8> <Esc>:copen<CR>

@@ -1,0 +1,8 @@
+
+/*-- Hide Bookmark Folder Icon --------------------------------------------*/
+#personal-bookmarks toolbarbutton[container="true"] .toolbarbutton-menu-dropmarker {
+	display: none !important;
+}
+
+
+

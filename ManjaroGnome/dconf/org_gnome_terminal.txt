@@ -1,0 +1,12 @@
+[legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+audible-bell=true
+background-color='rgb(46,52,54)'
+bold-color-same-as-fg=true
+default-size-columns=100
+default-size-rows=35
+font='Fira Mono Medium 12'
+foreground-color='rgb(211,215,207)'
+palette=['rgb(24,24,24)', 'rgb(171,70,66)', 'rgb(161,181,108)', 'rgb(247,202,136)', 'rgb(124,175,194)', 'rgb(186,139,175)', 'rgb(134,193,185)', 'rgb(216,216,216)', 'rgb(88,88,88)', 'rgb(171,70,66)', 'rgb(161,181,108)', 'rgb(247,202,136)', 'rgb(124,175,194)', 'rgb(186,139,175)', 'rgb(134,193,185)', 'rgb(248,248,248)']
+scrollbar-policy='never'
+use-system-font=true
+use-theme-colors=false

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=DropboxWork
+Comment=
+Exec=sh -c "/a/oHome/.dropbox-work/run_dropbox_here.sh"
+Icon=dropbox
+StartupNotify=false
+Terminal=false
+Hidden=false
+

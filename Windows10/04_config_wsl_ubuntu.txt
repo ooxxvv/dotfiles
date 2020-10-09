@@ -1,0 +1,40 @@
+﻿Windows Terminal
+==================================
+ * Install by Microsoft Store
+ * Run => exit
+ * Run as admin -> WindowsTerminal/10_config_windows_terminal.cmd
+
+Ubuntu System Update
+===================================
+ * sudo apt update && sudo apt -y upgrade
+
+Vim
+=============================================
+ * sh Vim/10_config_vim_linux.sh
+
+SSH Config
+==================================
+ * cp -rf /mnt/a/Dropbox/sData/SSH ~/.ssh
+ * find ~/.ssh -type f -print0 | xargs -0 chmod 600
+
+Git config
+==================================
+ * cd /mnt/a/Code && git clone git@github.com:ooxxvv/dotfiles
+ * cp /mnt/a/Code/dotfiles/Git/gitconfig.linux ~/.gitconfig
+ * Commit and Delete dotfiles that clone by HTTPS
+ * Pull again for dotfiles in /mnt/a/Code (if changed)
+
+ZSH & oh-my-zsh
+==================================
+ * sudo apt -y install zsh
+ * sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+ * sh /mnt/a/Code/dotfiles/ZSH/00_install_theme.sh
+ * exit
+
+Remove background color for result of ls
+==========================================
+ * sh 41_change_color_for_ls.sh
+ * Reboot
+ 
+ 
+  

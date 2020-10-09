@@ -1,0 +1,49 @@
+﻿Total Commander
+==================================
+  * Install
+    * C:\TotalCommander
+    * Language -> English
+    * No other languages
+  * Run as admin => TotalCommander/10_config_total_commander.cmd
+
+KeePassXC 
+==================================
+ * Install 
+   * Disable: Autostart KeePassXC on login
+ * Launch
+ * Save key file to total commander folder
+
+7-zip
+==================================
+ * Install
+ * Run & Config
+   * Link all supported file type
+   * Only two options for context menu
+
+Keypirinha
+==================================
+ * Install => Extract to C:\Keypirinha
+ * Run as admin => Keypirinha/10_config_keypirinha.cmd
+
+GoldenDict
+==================================
+ * Install => Extract to C:\GoldenDict
+ * Run as admin => GoldenDict/10_config_goldendict_for_windows.cmd
+
+ImageGlass 
+============================================
+ * Install & Launch
+   * Yes => Set ImageGlass as Default Photo Viewer
+ * Application => Default Application
+   * Photo Viewer => ImageGlass
+
+MacType 
+===============================================
+ * Install 
+   * Minimal Installation
+ * Run as admin => MacType/10_config_mactype.cmd
+ * Run Mactype Wizard
+   * Load: Registry
+   * Theme: ooxxvv
+ * Reboot
+

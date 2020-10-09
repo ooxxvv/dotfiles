@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=GoldenDict
+Icon=goldendict
+Comment=
+Exec=goldendict
+StartupNotify=true
+Terminal=false
+Hidden=false
+

@@ -1,0 +1,27 @@
+"############################################################################
+" UI settings for gVim
+"################################################################### Font ###
+if has("gui_win32")
+  set guifont=Fira\ Mono\ Medium:h11
+elseif has("gui_macvim")
+  set guifont=Fira\ Mono\ Medium:h11
+else
+  set guifont=Fira\ Mono\ Medium\ 12
+endif
+
+"########################################################### Window Style ###
+winsize 100 38                 "default windos size
+set guioptions-=T              "remove toolbar
+set guioptions-=m              "remove menu bar
+set guioptions-=L              "remove left hand scrollbars
+set guioptions-=r              "remove right hand scrollbars
+
+"################################################################### Menu ###
+set mousemodel=popup           "right click for menu
+set langmenu=en_US.UTF-8       "language for menu (GUI)
+"------------------------------ Reload menu using current language
+if has("win64") || has("win32")
+  source $VIMRUNTIME/delmenu.vim
+  source $VIMRUNTIME/menu.vim
+endif
+

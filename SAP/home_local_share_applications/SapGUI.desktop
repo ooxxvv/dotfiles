@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=SAP GUI
+Exec="/home/ooxxvv/sap/gui/SAPGUI/bin/guilogon"
+Type=Application
+Icon=guilogon
+StartupNotify=true
+Categories=X-SAPClients;Office;
+

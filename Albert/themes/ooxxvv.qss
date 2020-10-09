@@ -1,0 +1,103 @@
+/*
+ * Author: ooxxvv <https://github.com/ooxxvv>
+ * Based on Manuel Schneider's themes Numix and Yosemite Dark
+ *
+ */
+
+* {
+    color: #cccccc;
+    background-color: #2d2d2d;
+}
+
+#frame {
+    width: 640px;
+    min-width: 640px;
+    max-width: 640px;
+    padding: 12px;
+    border: 2px solid #555555;
+    background-color: #2d2d2d;
+}
+
+#inputLine {
+    padding: 2px;
+    border: none;
+    background-color: #2d2d2d;
+    selection-color: #fdf6e3;
+    selection-background-color: #586e75;
+    font: 36px "Copperplate Gothic Bold";
+}
+
+#settingsButton {
+    min-width: 14px;
+    max-width: 14px;
+    min-height: 14px;
+    max-height: 14px;
+    margin: 6px 6px 0px 0px;
+    border: none;
+    color: #555555;
+    background-color: transparent;
+}
+
+#settingsButton:hover {
+    background-color: #2d2d2d;
+}
+
+/********** ListViews ************/
+QListView {
+    selection-color: #cccccc;
+}
+
+QListView::item:selected {
+    border: none;
+    background: qlineargradient(x1:0, x2:1, stop:0.0 #3a3a3a, stop:0.5 #3a3a3a, stop:1.0 #3a3a3a );
+}
+
+QListView QScrollBar:vertical {
+    width: 5px;
+    background: transparent;
+}
+
+QListView QScrollBar::handle:vertical {
+    min-height: 24px;
+    background: #aaaaaa;
+}
+
+QListView QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical,
+QListView QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical,
+QListView QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    width: 0px;
+    height: 0px;
+    border: 0px;
+    background: transparent;
+}
+
+/********** actionList **********/
+QListView#actionList {
+    font-size: 20px;
+}
+
+QListView#actionList::item{
+    height:28px;
+}
+
+/********** resultsList **********/
+QListView#resultsList {
+    border: none;
+    background-color: transparent;
+    icon-size: 36px;
+    font-size: 26px;
+    font: 20px "Copperplate Gothic Bold";
+}
+
+QListView#resultsList::item {
+    height:48px;
+    padding: 4px;
+    border-bottom: 1px dotted #555;
+}
+
+QListView#resultsList::item:selected {
+    border: none;
+    background: #3a3a3a;
+}
+
+

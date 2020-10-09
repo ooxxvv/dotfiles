@@ -1,0 +1,57 @@
+System
+======================================================
+ * Application and Function => Turn on/off Windows Function
+   * Windows Subsystem Linux
+ * Change Computer Name
+ * Change Key (Upgrade to Pro)
+ * Reboot
+
+Windows Update
+======================================================
+ * Delivery Optimization
+   * Allow downloads from other PCs => Disable
+ * Update until newest version
+ * Reboot
+
+Ubuntu for WSL
+====================================================== 
+ * Microsoft Store => Ubuntu => Install & Active
+   * Set username and password
+
+Dropbox
+==================================
+ * Install & Login
+
+Edge
+==================================
+ * Upgrade to chrome version
+
+OneDrive
+======================================================
+ * Disable autostart, Unlink account & close it
+
+Firefox
+==================================
+ * Install & Login & Sync
+ * Customize Toolbar
+
+Keyboard for Input Method
+======================================================
+ * Keyboard: Use different input method for each application: Enable
+ * Language Bar: Hiddle
+ * Language Bar: Show language icon on task bar: Disable
+
+Disk Manager
+======================================================
+ * Remove partiton for backup (563MB)
+ * Start -> CMD
+   * diskpart, list disk, select disk
+   * select partition, delete partition override
+ 
+ * Start -> Disk Manager
+   * A: WINA (563MB)
+   * C: WINC
+   * D: WIND
+ * Reboot
+
+

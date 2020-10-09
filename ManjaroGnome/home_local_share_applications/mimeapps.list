@@ -1,0 +1,21 @@
+[Default Applications]
+application/json=gvim.desktop
+application/octet-stream=gvim.desktop
+application/x-perl=gvim.desktop
+application/x-shellscript=gvim.desktop;
+application/x-yaml=gvim.desktop
+text/html=gvim.desktop;firefox.desktop
+text/markdown=gvim.desktop
+text/mathml=gvim.desktop
+text/plain=gvim.desktop
+text/x-csrc=gvim.desktop
+text/x-matlab=gvim.desktop
+text/x-python=gvim.desktop
+text/x-chdr=gvim.desktop
+text/x-csrc=gvim.desktop
+text/x-dtd=gvim.desktop
+text/x-java=gvim.desktop
+text/x-python=gvim.desktop
+text/x-sql=gvim.desktop
+text/xml=gvim.desktop
+

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=HANA Studio
+Exec="/home/ooxxvv/sap/hdbstudio/hdbstudio"
+Type=Application
+Icon=guilogon
+StartupNotify=true
+Categories=X-SAPClients;Office;
+

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=Dropbox
+Comment=
+Exec=/a/oHome/.dropbox-dist/dropboxd
+Icon=dropbox
+StartupNotify=false
+Terminal=false
+Hidden=false
+

@@ -1,0 +1,97 @@
+Windows Registry Editor Version 5.00
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Options -> Visual Design -> Theme Settings
+[HKEY_CURRENT_USER\Software\SAP\General\Appearance]
+"SelectedFallbackTheme"=dword:00000100
+"SelectedTheme"=dword:00000080
+"AnimatedFocus"=dword:00000000
+"EllipsisForI18n"=dword:00000001
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Options -> Visual Design -> SAP Font Settings
+[HKEY_CURRENT_USER\Software\SAP\SAPGUI Front\SAP Frontend Server\Customize]
+"I18nModeActive"=dword:00000001
+"UseBelizeFontSettings"=dword:00000000
+"CustomFont.Facename"="Fira Mono Medium"
+"CustomProp.Facename"="PingFang TC Medium"
+"Font.Mode"=dword:00000003
+"Font.CharSet"=dword:00000000
+"Font.Facename"="Fira Mono Medium"
+"Font.Height"=dword:00000010
+"Font.Pitch"=dword:00000000
+"Font.Width"=dword:00000000
+"Font.Bold"=dword:00000000
+"Prop.CharSet"=dword:00000000
+"Prop.Facename"="PingFang TC Medium"
+"Prop.Height"=dword:fffffff3
+"Prop.HeightShow"=dword:fffffff0
+"Prop.Pitch"=dword:00000000
+"Prop.Width"=dword:00000000
+"Prop.Bold"=dword:00000000
+[HKEY_CURRENT_USER\Software\SAP\SAPGUI Front\SAP Frontend Server\I18n\0]
+"FixedFontName"="Fira Mono Medium"
+"PropFontName"="PingFang TC Medium"
+[HKEY_CURRENT_USER\Software\SAP\SAPGUI Front\SAP Frontend Server\I18n\1]
+"MenuFontName"="PingFang TC Medium"
+"CaptionFontName"="PingFang TC Medium"
+[HKEY_CURRENT_USER\Software\SAP\SAPGUI Front\SAP Frontend Server\I18n\136]
+"FixedFontName"="Fira Mono Medium"
+"PropFontName"="PingFang TC Medium"
+"MenuFontName"="PingFang TC Medium"
+"CaptionFontName"="PingFang TC Medium"
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Options -> Visual Design -> Color Settings
+[HKEY_CURRENT_USER\Software\SAP\General\Appearance]
+"BlueCrystalDefaultColor"="BlueCrystal"
+"SignatureSystemDependentColorsActive"=dword:00000000
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Options -> Interaction Design -> Visualization 1
+[HKEY_CURRENT_USER\Software\SAP\SAPGUI Front\SAP Frontend Server\Customize]
+"Edit.BlockCursor"=dword:00000000
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Options -> Interaction Design -> Visualization 2
+[HKEY_CURRENT_USER\Software\SAP\SAPGUI Front\SAP Frontend Server\Administration]
+"ShowAdditionalTitleInfo"=dword:00000001
+[HKEY_CURRENT_USER\Software\SAP\SAPGUI Front\SAP Frontend Server\Customize]
+"EnhancedSearchMode"=dword:00000002
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Options -> Multilingual Settings -> IME
+[HKEY_CURRENT_USER\Software\SAP\SAPGUI Front\SAP Frontend Server\Customize]
+"KanjiKey"=dword:00000009
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Options -> Security -> Security Configuration
+[HKEY_CURRENT_USER\Software\SAP\SAPGUI Front\SAP Frontend Server\Security]
+"DefaultAction"=dword:00000000
+"SecurityLevel"=dword:00000000
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Options -> SAP Logon Options -> General
+[HKEY_CURRENT_USER\Software\SAP\General]
+"Language"="EN"
+[HKEY_CURRENT_USER\Software\SAP\SAPLogon\Options]
+"UseSAPLogonLanguageAsDefault"=dword:00000001
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; SAP Logon Window Column
+[HKEY_CURRENT_USER\Software\SAP\SAPLogon\Settings\Listview]
+"ColumnWidth1"="315"
+"ColumnWidth2"="200"
+"ColumnWidth3"="55"
+"ColumnWidth4"="150"
+"ColumnWidth5"="55"
+"ColumnWidth6"="200"
+"ColumnWidth7"="150"
+"ColumnOrder1"=dword:00000000
+"ColumnOrder2"=dword:00000001
+"ColumnOrder3"=dword:00000002
+"ColumnOrder4"=dword:00000003
+"ColumnOrder5"=dword:00000004
+"ColumnOrder6"=dword:00000005
+"ColumnOrder7"=dword:00000006
+
