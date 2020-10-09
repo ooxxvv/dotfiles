@@ -28,9 +28,7 @@ Mouse
 Theme
 ======================================================
  * Cursor => via Context Menu => cursor/INF_simple_colorful_24px.inf
- * Theme
-   * Install => deskthemepack/ooxxvv.deskthemepack
-   * Desktop Icon => Hide all icons
+ * Theme => deskthemepack/ooxxvv.deskthemepack
  * Lock Screen:
     * Change Background image (As same as wallpaper)
     * Don't show tips on login window
@@ -38,7 +36,7 @@ Theme
 Fonts
 ======================================================
  * Install for all users -> FontBase (in sData)
- * Install for all users -> FontWinCMD (in sData)
+ * Install for all users -> FontWinAddon (in sData)
 
 Windows Script
 ======================================================
@@ -64,6 +62,6 @@ Input Method
  * Language
    * Set only one languages: zh-TW
    * Set only one input method for TW: 小狼毫
- * Merage -> 21_disable_ctrl_space.reg
+ * Merage -> 16_disable_ctrl_space.reg
  * Reboot
 
