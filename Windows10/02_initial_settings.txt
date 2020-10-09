@@ -33,6 +33,11 @@ Theme
     * Change Background image (As same as wallpaper)
     * Don't show tips on login window
 
+Easy Access (Display)
+======================================================
+ * Text size -> 110%
+ * Item size -> 125%
+
 Fonts
 ======================================================
  * Install for all users -> FontBase (in sData)
