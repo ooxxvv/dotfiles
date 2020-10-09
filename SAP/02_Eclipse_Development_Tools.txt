@@ -6,24 +6,28 @@ Microsoft Visual C++ 2013 (x64) Runtime DLLs
  
 Eclipse with SapMachine JRE
 ======================================================
- * 20_eclipse_and_sapjre.sh
+ * SAP_Eclipse/10_eclipse_and_sapjre.sh
    * Eclipse => https://www.eclipse.org/
    * SapMachine JRE => https://sap.github.io/SapMachine/
- * Run as admin -> 21_shortcut_for_windows.cmd
+ * Run as admin -> SAP_Eclipse\11_shortcut_for_windows.cmd
 
-Eclipse Plugins
+Eclipse Plugins & SAP Development Tooles
 ======================================================
- * Default workspace => C:\Sap\eclipse-workspace
+ * Default workspace -> C:\Sap\eclipse-workspace
+ * Import software list & Install
+   * Sap_Eclipse\Installed_Software_202006.p2f
+ * Exit Eclipse
+ * Run as admin -> SAP_Eclipse\21_config_eclipse.cmd
+ * Start Eclipse
+ 
+Plugin Source
+=====================================================
  * Vrapper (Vim Plugin)
    * http://vrapper.sourceforge.net/update-site/stable
  * Relative Line Number
    * http://matf.github.io/relativenumberruler/updatesite/
-
-SAP Development Tools
-====================================================== 
- * https://tools.hana.ondemand.com/<EclipseVersion>
+ * SAP Development Tools
+   * https://tools.hana.ondemand.com/<EclipseVersion>
    * <EclipseVersion> look like this 2020-06
- * Install => ABAP Development Tools
- * Install => Modeling Tools for SAP BW/4HANA and SAP BW powered by SAP
-
- 
+   * ABAP Development Tools
+   * Modeling Tools for SAP BW/4HANA and SAP BW powered by SAP

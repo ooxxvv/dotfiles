@@ -11,6 +11,8 @@ echo ========== Copy ABAP Settings ==========================================
 pause
 set source_dir=%pData_dir%\SAP\AbapEditor
 set target_dir=%AppData%\SAP\SAP GUI\ABAP Editor
+
+mkdir "%target_dir%"
 copy /y "%source_dir%\abap_spec.xml" "%target_dir%\abap_spec.xml" 
 copy /y "%source_dir%\settings.xml" "%target_dir%\settings.xml" 
 

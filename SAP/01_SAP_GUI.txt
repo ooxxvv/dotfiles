@@ -4,7 +4,6 @@ SAP GUI for Windows
    * SAP GUI for Windows
    * Update Patch
  * Config
-   * Run SAP Logon to create default config files
    * Merge -> 10_Frontend.reg
    * Run as admin -> 11_Connection.cmd
  * ABAP Editor

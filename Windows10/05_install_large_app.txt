@@ -8,7 +8,7 @@ MS Office
  * Download & Install
   * Dropbox/sData/MSoffice
  * Active by run Excel once
- 
+
 VSCode
 ==================================
  * Download & Install
