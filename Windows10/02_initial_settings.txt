@@ -41,11 +41,10 @@ Easy Access (Display)
 Fonts
 ======================================================
  * Install for all users -> FontBase (in sData)
- * Install for all users -> FontWinAddon (in sData)
+ * Install for all users -> FontWindowsCMD (in sData)
 
 Windows Script
 ======================================================
- * Check 99_backup_system_fonts.reg as same as current status
  * Merge -> 11_personalization.reg
  * Merge -> 12_keyboard_shortcut.reg
  * Merge -> 13_system_fonts.reg

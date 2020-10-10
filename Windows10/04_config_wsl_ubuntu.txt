@@ -1,16 +1,6 @@
-﻿Windows Terminal
-==================================
- * Install by Microsoft Store
- * Run => exit
- * Run as admin -> WindowsTerminal/10_config_windows_terminal.cmd
-
-Ubuntu System Update
+﻿Ubuntu System Update
 ===================================
- * sudo apt update && sudo apt -y upgrade
-
-Vim
-=============================================
- * sh Vim/10_config_vim_linux.sh
+ * sudo apt update && sudo apt upgrade
 
 SSH Config
 ==================================
@@ -23,6 +13,10 @@ Git config
  * cp /mnt/a/Code/dotfiles/Git/gitconfig.linux ~/.gitconfig
  * Commit and Delete dotfiles that clone by HTTPS
  * Pull again for dotfiles in /mnt/a/Code (if changed)
+
+Vim
+=============================================
+ * sh Vim/10_config_vim_linux.sh
 
 ZSH & oh-my-zsh
 ==================================

@@ -17,6 +17,9 @@ Ubuntu for WSL
 ====================================================== 
  * Microsoft Store => Ubuntu => Install & Active
    * Set username and password
+ * Microsoft Store => Windows Terminal
+   * Active and then exit
+   * Run as admin -> WindowsTerminal/10_config_windows_terminal.cmd
 
 Dropbox
 ==================================
@@ -47,9 +50,8 @@ Disk Manager
  * Start -> CMD
    * diskpart, list disk, select disk
    * select partition, delete partition override
- 
  * Start -> Disk Manager
-   * A: WINA (563MB)
+   * A: WINA
    * C: WINC
    * D: WIND
  * Reboot
