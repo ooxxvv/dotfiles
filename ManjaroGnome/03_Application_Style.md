@@ -41,12 +41,6 @@ Tweaks, Fonts
  * Antialiasing: Subpixel
  * Scaling Factor: 1.10
 
-Show the activities overview
-=================================
- * Settings, Keyboard Shortcuts
-   * Change from Alt+F1 to Alt+Space
-   * Default (Alt+Space) is for Active the window menu
-
 CopyQ
 ==============================
  * Run, Preferences

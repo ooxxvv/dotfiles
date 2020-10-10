@@ -12,6 +12,7 @@ Settings, Displays
 
 Settings, Mouse and Touchpad
 ====================================
+ * Mouse Speed: 55%
  * TouchPad: Disable
 
 Settings, Keyboard Shortcuts
@@ -21,6 +22,9 @@ Settings, Keyboard Shortcuts
  * Set shortcut for screenshot
    * (Area) to clipboard: Print
    * (Full) to clipboard: Ctrl+Prit
+ * Show the activities overview
+   * Change from Alt+F1 to Alt+Space
+   * Default (Alt+Space) is for Active the window menu
 
 Tweaks, General
 =====================================
