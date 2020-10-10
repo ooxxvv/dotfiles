@@ -1,6 +1,8 @@
 #!/bin/sh
 #############################################################################
 # Eclipse for SAP development
+#  * Eclipse => https://www.eclipse.org/
+#  * SapMachine JRE => https://sap.github.io/SapMachine/
 ############################################# Wrok Directory & Variables ####
 cd "$(dirname "$0")"
 

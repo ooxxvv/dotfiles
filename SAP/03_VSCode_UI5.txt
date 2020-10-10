@@ -13,6 +13,5 @@ SAP Fiori(UI5) Tools
  * Ctrl+Shift+x
  * Install:
    * SAP Fiori tools - Extension Pack
- * Restart VSCode
  
  
