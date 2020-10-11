@@ -39,8 +39,8 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics]
 "CaptionHeight"="-240"
 "CaptionWidth"="-240"
-"ScrollHeight"="-210"
-"ScrollWidth"="-210"
+"ScrollHeight"="-180"
+"ScrollWidth"="-180"
 "SmCaptionHeight"="-240"
 "SmCaptionWidth"="-240"
 "BorderWidth"="-30"

@@ -1,4 +1,8 @@
-﻿Total Commander
+﻿Setting, Easy Access
+==================================
+ * Monitor, Text Size: 110%
+
+Total Commander
 ==================================
   * Install
     * C:\TotalCommander
