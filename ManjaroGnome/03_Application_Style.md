@@ -41,18 +41,6 @@ Tweaks, Fonts
  * Antialiasing: Subpixel
  * Scaling Factor: 1.10
 
-Albert
-=================================
- * Run
- * Albert, Settings, General
-   * Autostart on login: Enable
- * For Wayland session, need to add global shortcut 
- * Settings, Keyboard Shortcuts
-   * Remove old shortcut: Alt+Space
-   * Name: Albert (Show/Hide)
-   * Command: albert toggle
-   * Shortcut: Alt+Space
-
 CopyQ
 ==============================
  * Run, Preferences
@@ -62,10 +50,10 @@ CopyQ
    * Layout
      * Hide Toolbar: Enable
      * Hide Toolbar Labels: Enable
- * For Wayland session, need to add global shortcut 
+ * For Wayland session, need to add global shortcut
  * Settings, Keyboard Shortcuts, Add
    * Remove old shortcut: Super+v
-   * Name: CopyQ (Show/Hide)
+   * Name: CopyQ
    * Command: copyq toggle
    * Shortcut: Super+v
 
@@ -85,17 +73,23 @@ GoldenDict
  * Preferences, Audio, Playback, Use external program
    * Fix the error when pronounce word
    * cvlc --play-and-stop -Vdummy
- * For Wayland session, need to add global shortcut 
+ * For Wayland session, need to add global shortcut
  * Settings, Keyboard Shortcuts, Add
    * Name: GoldenDict (Show)
    * Command: goldendict
    * Shortcut: Ctrl+Alt+z
-   
+
 Caffeine
 =================================
- * Context Menu on icon of Panel 
+ * Context Menu on icon of Panel
  * Preferences
    * Show tray icon: Disable
    * Show notification on Startup: Disable
+
+mntray
+==================================
+ * Settings
+   * Hide when all articles have been read: Enable
+ * Mark all as read
  * Reboot
 
