@@ -1,4 +1,8 @@
-﻿Ubuntu System Update
+﻿Setting, Easy Access
+==================================
+ * Monitor, Text Size: 115%
+ 
+Ubuntu System Update
 ===================================
  * sudo apt update && sudo apt upgrade
 
