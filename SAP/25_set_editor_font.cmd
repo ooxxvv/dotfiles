@@ -9,7 +9,7 @@ set this_dir=%cd%
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: Process :::
 echo "=============== Appearance, Colors and Fonts =========================="
 set config_dir=c:\sap\eclipse-workspace\.metadata\.plugins\org.eclipse.core.runtime\.settings
-copy /y "%this_dir%\Windows\org.eclipse.ui.workbench.prefs" "%config_dir%\"
+copy /y "%this_dir%\Eclipse\org.eclipse.ui.workbench.prefs" "%config_dir%\"
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 echo "========== All Done ==================================================="

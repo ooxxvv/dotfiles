@@ -6,15 +6,18 @@ Microsoft Visual C++ 2013 (x64) Runtime DLLs
 
 Eclipse with SapMachine JRE
 ======================================================
- * sh 10_eclipse_and_sapjre.sh
- * Run as admin -> 11_shortcut_for_windows.cmd
+ * sh 21_eclipse_and_sapjre.sh
+ * Run as admin -> 22_shortcut_for_windows.cmd
 
 Eclipse Plugins & SAP Development Tooles
 ======================================================
  * Default workspace -> C:\Sap\eclipse-workspace
  * File -> Import -> Install -> Install software items from File
-   * 20_installed_software_202006.p2f
- * Run as admin -> 21_config_eclipse_on_windows.cmd
+   * 23_installed_software_202006.p2f
+ * File -> Import -> General -> Preferences
+   * 24_preferences_all.epf
+ * Exit
+ * Run as admin -> 25_set_editor_font.cmd
 
 Plugin List
 =====================================================
