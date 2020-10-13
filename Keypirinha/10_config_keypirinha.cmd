@@ -5,16 +5,21 @@ setlocal
 :::::::::::::::::::::::::::::::::::::::::::: Working Directory & Variable :::
 cd /d %~dp0
 set this_dir=%cd%
-set config_dir=C:\Keypirinha\portable\Profile\User
+
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: Process :::
-echo "=============== Keypirinha Settings ==================================="
-echo "= * Copy ini to %config_dir% "
-echo "= * Run Keypirinha "
-echo "======================================================================="
-pause
+echo "=============== Packages =============================================="
+set config_dir=C:\Keypirinha\portable\Profile\InstalledPackages
+md "%config_dir%"
+copy /y "%this_dir%\SystemCommands.keypirinha-package" "%config_dir%\"
+
+echo "=============== Settings =============================================="
+set config_dir=C:\Keypirinha\portable\Profile\User
+
 md "%config_dir%"
 copy /y "%this_dir%\Keypirinha.ini" "%config_dir%\"
+
+echo "=============== Run Keypirinah ========================================"
 start "" "C:\Keypirinha\keypirinha.exe"
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
