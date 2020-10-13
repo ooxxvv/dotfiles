@@ -1,6 +1,6 @@
 ﻿Setting, Easy Access
 ==================================
- * Monitor, Text Size: 115%
+ * Monitor, Text Size: 116%
  
 Ubuntu System Update
 ===================================
