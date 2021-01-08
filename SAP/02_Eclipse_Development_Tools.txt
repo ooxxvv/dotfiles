@@ -30,3 +30,5 @@ Plugin List
    * <EclipseVersion> look like this 2020-06
    * ABAP Development Tools
    * Modeling Tools for SAP BW/4HANA and SAP BW powered by SAP
+ * abapGit for ABAP DEvelopment Tools (ADT)
+   * https://eclipse.abapgit.org/updatesite/

@@ -1,5 +1,11 @@
 Windows Registry Editor Version 5.00
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; * Disable text cursor blinking
+;;   * Start -> Run -> control -> keyboard
+;;   * Blink Rate: None
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"CursorBlinkRate"="-1"
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; * Personalization: Taskbar
 ;;   * Use small taskbar buttons: Enable
 ;;   * Replace CMD with PowerShell: Disable
