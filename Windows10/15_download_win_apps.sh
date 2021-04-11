@@ -59,7 +59,7 @@ curl -kL $from_url > $to_file
 
 echo '==================== Keypirinha ======================================='
 url_base="https://github.com/Keypirinha/Keypirinha/releases/download"
-ver_num="2.25"
+ver_num="2.26"
 from_url="$url_base/v$ver_num/keypirinha-$ver_num-x64-portable.7z"
 to_file="$to_dir/Keypirinha.7z"
 
@@ -79,7 +79,7 @@ curl -kL $from_url > $to_file
 
 echo '==================== KeePassXC ========================================'
 url_base="https://github.com/keepassxreboot/keepassxc/releases/download"
-ver_num="2.6.1"
+ver_num="2.6.4"
 from_url="$url_base/$ver_num/KeePassXC-$ver_num-Win64.msi"
 to_file="$to_dir/KeepassXC_Install.msi"
 
@@ -89,7 +89,7 @@ curl -kL $from_url > $to_file
 
 echo '==================== ImageGlass ========================================'
 url_base="https://github.com/d2phap/ImageGlass/releases/download"
-ver_num="7.6.4.30"
+ver_num="8.0.12.8"
 from_url="$url_base/$ver_num/ImageGlass_"$ver_num"_x64.msi"
 to_file="$to_dir/ImageGlass_Install.msi"
 
