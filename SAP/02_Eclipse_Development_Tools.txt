@@ -12,12 +12,11 @@ Eclipse with SapMachine JRE
 Eclipse Plugins & SAP Development Tooles
 ======================================================
  * Default workspace -> C:\Sap\eclipse-workspace
- * File -> Import -> Install -> Install software items from File
-   * 23_installed_software_202006.p2f
+ * Install Plugins
  * File -> Import -> General -> Preferences
-   * 24_preferences_all.epf
+   * 23_preferences_all.epf
  * Exit
- * Run as admin -> 25_set_editor_font.cmd
+ * Run as admin -> 24_set_editor_font.cmd
 
 Plugin List
 =====================================================
