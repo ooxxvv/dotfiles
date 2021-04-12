@@ -42,8 +42,7 @@ Windows Script
 ======================================================
  * Merge -> 11_personalization.reg
  * Merge -> 12_keyboard_shortcut.reg
- * Merge -> 13_system_fonts.reg
- * Run as admin -> 14_power_manager_and_link_symbols.cmd
+ * Run as admin -> 13_power_manager_and_link_symbols.cmd
 
 Linux Script
 ======================================================
