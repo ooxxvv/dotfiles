@@ -3,6 +3,8 @@ patch:
   schema_list:
     - schema: bosiannmih
 
+  # 重碼選擇鍵，預設 CTRL + 123456789
+  # 重碼選單，上下鍵移動，空白鍵選擇(不是 Enter)
   menu:
     page_size: 9
 
