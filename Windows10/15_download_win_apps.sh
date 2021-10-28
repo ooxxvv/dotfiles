@@ -8,10 +8,10 @@ cd "$(dirname "$0")"
 to_dir=/mnt/a/oHome/Desktop
 
 ################################################################# Process ###
-echo '==================== RIME -  Weasel ==================================='
-url_base="https://dl.bintray.com/rime/weasel/weasel"
-ver_num="0.14.3.0"
-from_url=$url_base"-"$ver_num"-installer.exe"
+echo '==================== RIME - Weasel ===================================='
+url_base="https://github.com/rime/weasel/releases/download"
+ver_num="0.14.3"
+from_url="$url_base/$ver_num/weasel-$ver_num.0-installer.exe"
 to_file="$to_dir/Rime_Weasel_Install.exe"
 
 echo "Version: $ver_num"
@@ -49,7 +49,7 @@ curl -kL $from_url > $to_file
 
 echo '==================== Total Commander =================================='
 url_base="https://totalcommander.ch/win"
-ver_num="951"
+ver_num="1000"
 from_url="$url_base/tcmd$ver_num""x64.exe"
 to_file="$to_dir/TotalCommander_Install.exe"
 
@@ -69,7 +69,7 @@ curl -kL $from_url > $to_file
 
 echo '==================== MacType =========================================='
 url_base="https://github.com/snowie2000/mactype/releases/download"
-ver_num="2019.1-beta6"
+ver_num="2021.1-rc1"
 from_url="$url_base/$ver_num/MacTypeInstaller_$ver_num.exe"
 to_file="$to_dir/MacType_Install.exe"
 
@@ -89,7 +89,7 @@ curl -kL $from_url > $to_file
 
 echo '==================== KeePassXC ========================================'
 url_base="https://github.com/keepassxreboot/keepassxc/releases/download"
-ver_num="2.6.4"
+ver_num="2.6.6"
 from_url="$url_base/$ver_num/KeePassXC-$ver_num-Win64.msi"
 to_file="$to_dir/KeepassXC_Install.msi"
 
@@ -99,7 +99,7 @@ curl -kL $from_url > $to_file
 
 echo '==================== ImageGlass ========================================'
 url_base="https://github.com/d2phap/ImageGlass/releases/download"
-ver_num="8.0.12.8"
+ver_num="8.2.6.6"
 from_url="$url_base/$ver_num/ImageGlass_"$ver_num"_x64.msi"
 to_file="$to_dir/ImageGlass_Install.msi"
 
