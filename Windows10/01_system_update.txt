@@ -55,5 +55,3 @@ Disk Manager
    * C: WINC
    * D: WIND
  * Reboot
-
-

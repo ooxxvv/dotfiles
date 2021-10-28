@@ -37,6 +37,12 @@ ImageGlass
  * Application => Default Application
    * Photo Viewer => ImageGlass
 
+noMeiryoUI
+===============================================
+ * Download & Install
+   * https://github.com/Tatsu-syo/noMeiryoUI/releases
+ * Set all font => PingFang, 10
+
 MacType
 ===============================================
  * Install 
