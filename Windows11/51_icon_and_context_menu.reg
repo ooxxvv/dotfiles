@@ -1,0 +1,48 @@
+Windows Registry Editor Version 5.00
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Remove items on context menu
+[HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers]
+[-HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\FileSyncEx]
+[-HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\DropboxExt]
+[-HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\EPP]
+[-HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\gvim]
+[-HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\ModernSharing]
+[-HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\Open With EncryptionMenu]
+[-HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\Sharing]
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Image file types (ImageGlass)
+[-HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.ico\UserChoice]
+[HKEY_CLASSES_ROOT\ImageGlass.AssocFile.BMP\DefaultIcon]
+@="c:\\TotalCommander\\ooxxvv\\dotBMP.ico"
+[HKEY_CLASSES_ROOT\ImageGlass.AssocFile.GIF\DefaultIcon]
+@="c:\\TotalCommander\\ooxxvv\\dotGIF.ico"
+[HKEY_CLASSES_ROOT\ImageGlass.AssocFile.JPG\DefaultIcon]
+@="c:\\TotalCommander\\ooxxvv\\dotJPG.ico"
+[HKEY_CLASSES_ROOT\ImageGlass.AssocFile.PNG\DefaultIcon]
+@="c:\\TotalCommander\\ooxxvv\\dotPNG.ico"
+[HKEY_CLASSES_ROOT\ImageGlass.AssocFile.SVG\DefaultIcon]
+@="c:\\TotalCommander\\ooxxvv\\dotSVG.ico"
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Archive file types (7-zip)
+[HKEY_CLASSES_ROOT\7-Zip.7z\DefaultIcon]
+@="c:\\TotalCommander\\ooxxvv\\app7zip.ico"
+[HKEY_CLASSES_ROOT\7-Zip.rar\DefaultIcon]
+@="c:\\TotalCommander\\ooxxvv\\app7zip.ico"
+[HKEY_CLASSES_ROOT\7-Zip.tar\DefaultIcon]
+@="c:\\TotalCommander\\ooxxvv\\app7zip.ico"
+[HKEY_CLASSES_ROOT\7-Zip.wim\DefaultIcon]
+@="c:\\TotalCommander\\ooxxvv\\app7zip.ico"
+[HKEY_CLASSES_ROOT\7-Zip.zip\DefaultIcon]
+@="c:\\TotalCommander\\ooxxvv\\app7zip.ico"
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; PDF file type (Firefox)
+[HKEY_CLASSES_ROOT\Applications\firefox.exe\DefaultIcon]
+@="c:\\TotalCommander\\ooxxvv\\dotPDF.ico"
+[HKEY_CLASSES_ROOT\.pdf]
+@=".pdf_auto_file"
+[HKEY_CLASSES_ROOT\.pdf_auto_file\DefaultIcon]
+@="c:\\TotalCommander\\ooxxvv\\dotPDF.ico"
+

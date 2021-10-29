@@ -1,0 +1,56 @@
+Windows Registry Editor Version 5.00
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; * Disable text cursor blinking
+;;   * Start -> Run -> control -> keyboard
+;;   * Blink Rate: None
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"CursorBlinkRate"="-1"
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; * Personalization: Taskbar
+;;   * Use small taskbar buttons: Enable
+;;   * Replace CMD with PowerShell: Disable
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"TaskbarSmallIcons"=dword:00000001
+"DontUsePowerShellOnWinX"=dword:00000001
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; * Personalization: Taskbar: Select which icons appear on the taskbar
+;;   * Always show all icons: Enable
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer]
+"EnableAutoTray"=dword:00000000
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Personalization: Background: Stretch
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"WallpaperStyle"="2"
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Personalization: Color for System: Dark
+;; Personalization: Color for Application: Light
+;; Personalization: Color for Start & Taskbar: Disable
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize]
+"ColorPrevalence"=dword:00000000
+"EnableTransparency"=dword:00000001
+"AppsUseLightTheme"=dword:00000001
+"SystemUsesLightTheme"=dword:00000000
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Personalization: Color for Windows Title & Frame: Enable
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\DWM]
+"ColorPrevalence"=dword:00000001
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Personalization: Theme: Desktop Icon Setting: Hide Recycle Bin
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel]
+"{645FF040-5081-101B-9F08-00AA002F954E}"=dword:00000001
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\ClassicStartMenu]
+"{645FF040-5081-101B-9F08-00AA002F954E}"=dword:00000001
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Font setting for Console (CMD & PowerShell)
+[HKEY_CURRENT_USER\Console]
+"FaceName"="MyHeiBVSmono"
+"FontSize"=dword:00140000
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Format for DateTime
+[HKEY_CURRENT_USER\Control Panel\International]
+"sShortDate"="yyyy/MM/dd"
+"sTimeFormat"="HH:mm:ss"
+"sShortTime"="HH:mm"
+"iFirstDayOfWeek"="0"
+
+

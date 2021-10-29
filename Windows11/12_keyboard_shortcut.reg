@@ -1,0 +1,18 @@
+Windows Registry Editor Version 5.00
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Settings: Ease of Access: Keyboard: PrtScn button to open screen snipping
+[HKEY_CURRENT_USER\Control Panel\Keyboard]
+"PrintScreenKeyForSnippingEnabled"=dword:00000001
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Settings: System: Clipboard: Save multiple items
+;; Default hotkey: WIN + v
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Clipboard]
+"EnableClipboardHistory"=dword:00000001
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; System: Multitasking: Arrange windows automatically -> Disable
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"WindowArrangementActive"="0"
+
+

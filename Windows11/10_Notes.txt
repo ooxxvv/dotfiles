@@ -1,0 +1,15 @@
+﻿Variable for Windows Folder
+=====================================
+ * Start Menu
+   * %ProgramData%\Microsoft\Windows\Start Menu\Programs
+ * Start Up
+   * Start Menu -> Execute -> shell:common startup
+   * %ProgramData%\Microsoft\Windows\Start Menu\Programs\StartUp
+ * Send To
+   * Start Menu -> Execute -> shell:sendto
+   * %AppData%\Microsoft\Windows\SendTo
+
+Reset GRUB
+==========================
+ * Run CMD as Administrator:
+   * bcdedit /set {bootmgr} path \EFI\ubuntu\grubx64.efi

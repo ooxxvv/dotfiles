@@ -1,0 +1,64 @@
+﻿Firefox
+======================================================
+ * Run as admin => Firefox/10_copy_profile_for_windows.cmd
+
+Task Bar
+======================================================
+ * Unpin all icons on task bar
+ * System Tray: Show All Icons
+
+Start
+======================================================
+ * Remove default cubes on menu (by group)
+ * Star => Disable all, only keep "Show app list in Start Menu"
+ * Show folders on Start: Disable all
+
+File Explorer
+======================================================
+ * Unpin system folders
+ * Pin -> Recycle Bin & Disks (Exclude C)
+ * View -> Options -> Clean & Don't show any history
+
+Mouse
+======================================================
+ * X1C: Trackpoint: Last 4rd, Speed: 15
+ * T495s: TrackPoint: 6, Speed: 17 
+
+Theme
+======================================================
+ * Cursor => via Context Menu => cursor/INF_simple_colorful_24px.inf
+ * Theme => deskthemepack/ooxxvv.deskthemepack
+ * Lock Screen:
+    * Change Background image (As same as wallpaper)
+    * Don't show tips on login window
+
+Fonts
+======================================================
+ * Install for all users -> FontBase (in sData)
+ * Install for all users -> FontWindowsCMD (in sData)
+
+Windows Script
+======================================================
+ * Merge -> 11_personalization.reg
+ * Merge -> 12_keyboard_shortcut.reg
+ * Run as admin -> 13_power_manager_and_link_symbols.cmd
+
+Linux Script
+======================================================
+ * 15_download_win_apps.sh
+
+Nodepad2
+======================================================
+ * Install
+ * Run as admin => Notepad2\10_config_notepad2.cmd
+
+Input Method
+======================================================
+ * Run as admin -> RIME\10_config_rime_windows.cmd
+ * Install RIME (Weasel)
+ * Language
+   * Set only one languages: zh-TW
+   * Set only one input method for TW: 小狼毫
+ * Merage -> 16_disable_ctrl_space.reg
+ * Reboot
+
