@@ -12,12 +12,12 @@ Windows Update
  * Reboot
 
 Ubuntu for WSL
-====================================================== 
+======================================================
  * CMD as Administrator
    * wsl --install -d Ubuntu
 
 Dropbox
-==================================
+======================================================
  * Install & Login
 
 OneDrive
@@ -25,15 +25,9 @@ OneDrive
  * Disable autostart, Unlink account & close it
 
 Firefox
-==================================
+======================================================
  * Install & Login & Sync
  * Customize Toolbar
-
-Keyboard for Input Method
-======================================================
- * Keyboard: Use different input method for each application: Enable
- * Language Bar: Hiddle
- * Language Bar: Show language icon on task bar: Disable
 
 Disk Manager
 ======================================================
@@ -46,3 +40,9 @@ Disk Manager
    * C: WINC
    * D: WIND
  * Reboot
+
+Keyboard for Input Method
+======================================================
+ * Keyboard: Use different input method for each application: Enable
+ * Language Bar: Hiddle
+ * Language Bar: Show language icon on task bar: Disable

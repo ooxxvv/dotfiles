@@ -37,20 +37,24 @@ Fonts
  * Install for all users -> FontBase (in sData)
  * Install for all users -> FontWindowsCMD (in sData)
 
+Display Setting
+======================================================
+ * Display Setting => 125%, Text Size => 117%
+
 Windows Script
 ======================================================
- * Merge -> 11_personalization.reg
- * Merge -> 12_keyboard_shortcut.reg
- * Run as admin -> 13_power_manager_and_link_symbols.cmd
+ * Merge -> 11_keyboard_shortcut.reg
+ * Run as admin -> 12_power_manager_and_link_symbols.cmd
 
-Linux Script
+WSL Version
 ======================================================
  * 15_download_win_apps.sh
 
-Nodepad2
+noMeiryoUI
 ======================================================
- * Install
- * Run as admin => Notepad2\10_config_notepad2.cmd
+ * Install & Run
+ * Set all font => PingFang, 10
+ * Merge -> 16_personalization.reg
 
 Input Method
 ======================================================
@@ -59,6 +63,14 @@ Input Method
  * Language
    * Set only one languages: zh-TW
    * Set only one input method for TW: 小狼毫
- * Merage -> 16_disable_ctrl_space.reg
+ * Merage -> 17_disable_ctrl_space.reg
  * Reboot
+
+
+Nodepad2
+======================================================
+ * Install
+ * Run as admin => Notepad2\10_config_notepad2.cmd
+
+
 
