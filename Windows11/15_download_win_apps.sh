@@ -29,10 +29,11 @@ echo "Save To: $to_file"
 curl -ko $to_file $from_url
 
 echo '==================== Notepad2 ========================================='
-url_base="https://www.flos-freeware.ch/zip/Notepad2_4.2.25_x64.exe"
-ver_num="4.2.25"
-from_url=$url_base
-to_file="$to_dir/Notepad2_Install.exe"
+url_base="https://github.com/zufuliu/notepad2/releases/download"
+ver_num="v4.21.09r3900"
+from_url="$url_base/$ver_num/Notepad2_en_x64_$ver_num.zip"
+to_file="$to_dir/Notepad2.zip"
+
 echo "Version: $ver_num"
 echo "Save To: $to_file"
 curl -ko $to_file $from_url

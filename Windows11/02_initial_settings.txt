@@ -56,6 +56,15 @@ noMeiryoUI
  * Set all font => PingFang, 10
  * Merge -> 16_personalization.reg
 
+Nodepad2
+======================================================
+ * Extract to => C:\Notepad2
+ * Replace Notepad
+    * Uninstall Notepad
+    * Run as admin => Notepad2,  Settings,  Advanced Settings,  System Intergrtion...
+ * Send To
+    *  Run as admin => Notepad2\10_config_notepad2.cmd
+
 Input Method
 ======================================================
  * Run as admin -> RIME\10_config_rime_windows.cmd
@@ -67,10 +76,7 @@ Input Method
  * Reboot
 
 
-Nodepad2
-======================================================
- * Install
- * Run as admin => Notepad2\10_config_notepad2.cmd
+
 
 
 
