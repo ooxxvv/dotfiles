@@ -21,7 +21,7 @@ Git config
 
 Vim
 =============================================
- * sh Vim/10_config_vim_linux.sh
+ * sh /mnt/a/Code/dotfiles/Vim/10_config_vim_linux.sh
 
 ZSH & oh-my-zsh
 ==================================
