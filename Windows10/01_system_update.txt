@@ -22,27 +22,17 @@ Ubuntu for WSL
    * Run as admin -> WindowsTerminal/10_config_windows_terminal.cmd
 
 Dropbox
-==================================
+======================================================
  * Install & Login
-
-Edge
-==================================
- * Upgrade to chrome version
 
 OneDrive
 ======================================================
  * Disable autostart, Unlink account & close it
 
 Firefox
-==================================
+======================================================
  * Install & Login & Sync
  * Customize Toolbar
-
-Keyboard for Input Method
-======================================================
- * Keyboard: Use different input method for each application: Enable
- * Language Bar: Hiddle
- * Language Bar: Show language icon on task bar: Disable
 
 Disk Manager
 ======================================================

@@ -5,7 +5,7 @@ setlocal
 :::::::::::::::::::::::::::::::::::::::::::: Working Directory & Variable :::
 cd /d %~dp0
 set this_dir=%cd%
-set config_dir=C:\Notepad2\
+set config_dir=%ProgramFiles%\Notepad2
 ::set start_dir=%ProgramData%\Microsoft\Windows\Start Menu\Programs\Accessories
 set sendto_dir=%AppData%\Microsoft\Windows\SendTo
 
@@ -16,7 +16,7 @@ copy /y "%this_dir%\Notepad2.ini" "%config_dir%\"
 
 echo "=============== Shortcut for Start Menu ==============================="
 echo "======================================================================="
-set exe_file=C:\Notepad2\Notepad2.exe
+set exe_file=%ProgramFiles%\Notepad2\Notepad2.exe
 set lnk_file=%ProgramData%\Microsoft\Windows\Start Menu\Programs\Notepad2.lnk
 
 set ps_cmd=$s=(New-Object -ComObject WScript.Shell).CreateShortcut('%lnk_file%');
