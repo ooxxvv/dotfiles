@@ -38,6 +38,11 @@ Fonts
  * Install for all users -> FontBase (in sData)
  * Install for all users -> FontWindowsCMD (in sData)
 
+Display Settings
+======================================================
+ * All items => 125%
+ * Easy Access, Text Size => 120%
+
 Windows Script
 ======================================================
  * Merge -> 11_personalization.reg

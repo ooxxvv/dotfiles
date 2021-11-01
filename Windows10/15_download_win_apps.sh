@@ -67,16 +67,6 @@ echo "Version: $ver_num"
 echo "Save To: $to_file"
 curl -kL $from_url > $to_file
 
-echo '==================== MacType =========================================='
-url_base="https://github.com/snowie2000/mactype/releases/download"
-ver_num="2021.1-rc1"
-from_url="$url_base/$ver_num/MacTypeInstaller_$ver_num.exe"
-to_file="$to_dir/MacType_Install.exe"
-
-echo "Version: $ver_num"
-echo "Save To: $to_file"
-curl -kL $from_url > $to_file
-
 echo '==================== noMeiryoUI ======================================='
 url_base="https://github.com/Tatsu-syo/noMeiryoUI/releases/download"
 ver_num="TAG-2.41"

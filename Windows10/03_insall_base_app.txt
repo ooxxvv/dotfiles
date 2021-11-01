@@ -41,14 +41,3 @@ noMeiryoUI
 ===============================================
  * Install & Run
  * Set all font => PingFang, 10
-
-MacType
-===============================================
- * Install 
-   * Minimal Installation
- * Run as admin => MacType/10_config_mactype.cmd
- * Run Mactype Wizard
-   * Load: Registry
-   * Theme: ooxxvv
- * Reboot
-
