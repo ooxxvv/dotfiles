@@ -36,7 +36,9 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\SAP\SAPGUI Front\SAP Frontend Server\I18n\0]
 "Fiori3.FixedFontName"="Fira Mono Medium"
 "Fiori3.PropFontName"="萍方-繁 中黑體"
-
+[HKEY_CURRENT_USER\SOFTWARE\SAP\SAPGUI Front\SAP Frontend Server\I18n\136]
+"MenuFontName"="萍方-繁 中黑體"
+"CaptionFontName"="萍方-繁 中黑體"
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Options -> Visual Design -> Color Settings
 [HKEY_CURRENT_USER\Software\SAP\General\Appearance]
