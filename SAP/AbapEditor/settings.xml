@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="settings.xslt"?>
 <XMLConfigSettings>
 	<FILEINFO>
-		<Author>Alex Arseniev</Author>
+		<Author>SAP</Author>
 		<Type>General settings</Type>
 		<Desc>General settings for AB4Editor control</Desc>
 	</FILEINFO>
@@ -15,14 +15,13 @@
 		<ProgLanguage>TEXT</ProgLanguage>
 		<LangDetermin>1</LangDetermin>
 		<SaveOnExit>0</SaveOnExit>
-		<ExpertMode>1</ExpertMode>
 	</General>
 	<Fonts_and_Colors>
 		<Font>
-			<Name>MyHeiBVSmono</Name>
-			<Size>10</Size>
+			<Name>Sarasa Fixed TC Semibold</Name>
+			<Size>11</Size>
 			<OnlyMonospaced>1</OnlyMonospaced>
-			<CharSet>136</CharSet></Font>
+			<CharSet>0</CharSet></Font>
 	</Fonts_and_Colors>
 	<Code_Completion>
 		<AutoCompletion>1</AutoCompletion>
@@ -77,7 +76,7 @@
 		<SmoothScroll>1</SmoothScroll>
 		<SmoothScrollFactor>4</SmoothScrollFactor>
 		<ViewChangedLines>1</ViewChangedLines>
-	</Display>
+		<UseThemeColors>0</UseThemeColors></Display>
 	<Print>
 		<LeftMargin>1000</LeftMargin>
 		<RightMargin>0</RightMargin>

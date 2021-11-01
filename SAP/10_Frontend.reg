@@ -1,50 +1,45 @@
 Windows Registry Editor Version 5.00
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Options -> Visual Design -> Theme Settings
 [HKEY_CURRENT_USER\Software\SAP\General\Appearance]
-"SelectedFallbackTheme"=dword:00000100
-"SelectedTheme"=dword:00000080
+"SelectedTheme"=dword:00000800
+"SelectedFallbackTheme"=dword:00000800
 "AnimatedFocus"=dword:00000000
-"EllipsisForI18n"=dword:00000001
+"CorbuIcon"=dword:00000001
+"FioriToolbarButtonsWithIcons"=dword:00000001
+"ActivateFioriFeatures"=dword:00000001
+"MultiMonitorDpiAwareness"=dword:00000001
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Options -> Visual Design -> SAP Font Settings
 [HKEY_CURRENT_USER\Software\SAP\SAPGUI Front\SAP Frontend Server\Customize]
+"MainMenuInMoreButton"=dword:00000000
 "I18nModeActive"=dword:00000001
 "UseBelizeFontSettings"=dword:00000000
 "CustomFont.Facename"="Fira Mono Medium"
-"CustomProp.Facename"="PingFang TC Medium"
+"CustomProp.Facename"="萍方-繁 中黑體"
 "Font.Mode"=dword:00000003
 "Font.CharSet"=dword:00000000
-"Font.Facename"="Fira Mono Medium"
-"Font.Height"=dword:00000010
-"Font.Pitch"=dword:00000000
-"Font.Width"=dword:00000000
-"Font.Bold"=dword:00000000
+"Font.Pitch"=dword:00000031
+"Fiori3.Font.Facename"="Fira Mono Medium"
+"Fiori3.Prop.Facename"="萍方-繁 中黑體"
 "Prop.CharSet"=dword:00000000
-"Prop.Facename"="PingFang TC Medium"
-"Prop.Height"=dword:fffffff3
-"Prop.HeightShow"=dword:fffffff0
-"Prop.Pitch"=dword:00000000
-"Prop.Width"=dword:00000000
-"Prop.Bold"=dword:00000000
+"Prop.Pitch"=dword:00000022
+"Fiori3.Font.Height"=dword:fffffff2
+"Fiori3.Font.Width"=dword:00000000
+"Fiori3.Font.Bold"=dword:00000000
+"Fiori3.Prop.Height"=dword:fffffff2
+"Fiori3.Prop.Width"=dword:00000000
+"Fiori3.Prop.Bold"=dword:00000000
+"KanjiFontDialogProp"=dword:00000001
+"KanjiFontDialogScript"=dword:00000000
 [HKEY_CURRENT_USER\Software\SAP\SAPGUI Front\SAP Frontend Server\I18n\0]
-"FixedFontName"="Fira Mono Medium"
-"PropFontName"="PingFang TC Medium"
-[HKEY_CURRENT_USER\Software\SAP\SAPGUI Front\SAP Frontend Server\I18n\1]
-"MenuFontName"="PingFang TC Medium"
-"CaptionFontName"="PingFang TC Medium"
-[HKEY_CURRENT_USER\Software\SAP\SAPGUI Front\SAP Frontend Server\I18n\136]
-"FixedFontName"="Fira Mono Medium"
-"PropFontName"="PingFang TC Medium"
-"MenuFontName"="PingFang TC Medium"
-"CaptionFontName"="PingFang TC Medium"
+"Fiori3.FixedFontName"="Fira Mono Medium"
+"Fiori3.PropFontName"="萍方-繁 中黑體"
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Options -> Visual Design -> Color Settings
 [HKEY_CURRENT_USER\Software\SAP\General\Appearance]
-"BlueCrystalDefaultColor"="BlueCrystal"
 "SignatureSystemDependentColorsActive"=dword:00000000
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
