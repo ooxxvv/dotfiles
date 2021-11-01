@@ -16,7 +16,7 @@ sudo apt install -y unzip
 
 echo "=============== Eclipse ==============================================="
 url_base="http://download.eclipse.org/technology/epp/downloads/release"
-ver_num="2020-12"
+ver_num="2021-06"
 from_url="$url_base/$ver_num/R/eclipse-java-$ver_num-R-win32-x86_64.zip"
 to_file="$to_dir/eclipse-$ver_num.zip"
 echo "Version: $ver_num"
