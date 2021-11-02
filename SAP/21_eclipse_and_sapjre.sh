@@ -48,7 +48,7 @@ rm -r $install_dir/eclipse/jre/sapmachine-jre-$ver_num
 
 echo "=============== Set sacle to fix small icon ==========================="
 echo "-Dswt.enable.autoScale=true" >> $ini_file
-echo "-Dswt.autoScale=125" >> $ini_file
+echo "-Dswt.autoScale=150" >> $ini_file
 echo "-Dswt.autoScale.method=nearest" >> $ini_file
 
 echo "=============== Done ==================================================="
