@@ -1,7 +1,10 @@
 NodeJS and NPM on WSL
 ======================================================
  * Run WSL
- * Node.js and NPM
+ * Node.js (v12)
+   * sudo apt update
+   * sudo apt -y install curl dirmngr apt-transport-https lsb-release ca-certificates
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
    * sudo apt update && sudo apt -y install nodejs npm
  * Application Generator for SAP UI5(Fiori)
    * sudo npm install -g yo generator-easy-ui5

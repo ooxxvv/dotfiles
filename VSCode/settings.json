@@ -1,5 +1,5 @@
 {
-    "editor.fontFamily": "Fira Mono Medium",
+    "editor.fontFamily": "Fira Mono Medium, MyHeiBVSmono",
     "editor.fontSize": 13,
     "editor.lineNumbers": "relative",
     "window.zoomLevel": 0.5,
