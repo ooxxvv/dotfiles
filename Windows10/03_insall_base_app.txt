@@ -36,8 +36,3 @@ ImageGlass
    * Yes => Set ImageGlass as Default Photo Viewer
  * Application => Default Application
    * Photo Viewer => ImageGlass
-
-noMeiryoUI
-===============================================
- * Install & Run
- * Set all font => PingFang, 10
