@@ -22,8 +22,8 @@ File Explorer
 
 Mouse
 ======================================================
- * X1C: Trackpoint: Last 4rd, Speed: 15
  * T495s: TrackPoint: 5 (Default), Speed: 17 
+ * X13 Gen2: TrackPoint: 9, Speed: 17 
 
 Theme
 ======================================================
