@@ -40,8 +40,8 @@ Fonts
 
 Display Settings
 ======================================================
- * All items => 125%
- * Easy Access, Text Size => 120%
+ * Monitor: 125%, (X13: 175%)
+ * Text Size: 120%, (X13: 125%)
 
 Windows Script
 ======================================================

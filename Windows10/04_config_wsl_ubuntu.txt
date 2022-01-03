@@ -1,9 +1,4 @@
-﻿Setting, Easy Access
-==================================
- * Monitor: 125%, (X13: 175%)
- * Text Size: 120%, (X13: 125%)
- 
-Ubuntu System Update
+﻿Ubuntu System Update
 ===================================
  * sudo apt update && sudo apt upgrade
 
@@ -34,6 +29,3 @@ Remove background color for result of ls
 ==========================================
  * sh 41_change_color_for_ls.sh
  * Reboot
- 
- 
-  
