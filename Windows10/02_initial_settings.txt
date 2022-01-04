@@ -23,7 +23,7 @@ File Explorer
 Mouse
 ======================================================
  * T495s: TrackPoint: 5 (Default), Speed: 17 
- * X13 Gen2: TrackPoint: 9, Speed: 17 
+ * X13 Gen2: TrackPoint: 10, Speed: 17 
 
 Theme
 ======================================================
@@ -40,8 +40,8 @@ Fonts
 
 Display Settings
 ======================================================
- * Monitor: 125%, (X13: 175%)
- * Text Size: 120%, (X13: 125%)
+ * Monitor: 125%, (X13: 150%)
+ * Text Size: 120%, (X13: 150%)
 
 Windows Script
 ======================================================
@@ -61,8 +61,8 @@ Nodepad2
 noMeiryoUI
 ======================================================
  * Install => C:\noMeiryoUI
- * Run => Set all font => PingFang, 10 (X13: 12)
- * Merge => 14_window_font_size.reg
+ * Run => Set all font => PingFang, 10pt (X13: 14pt)
+ * Merge => 14_window_size.reg
  
 Input Method
 ======================================================
