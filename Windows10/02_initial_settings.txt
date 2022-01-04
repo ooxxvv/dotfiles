@@ -52,17 +52,18 @@ Windows Script
 Linux Script
 ======================================================
  * 15_download_win_apps.sh
-
-noMeiryoUI
-===============================================
- * Install & Run
- * Set all font => PingFang, 10 (X13: 11)
  
 Nodepad2
 ======================================================
  * Install
  * Run as admin => Notepad2\10_config_notepad2.cmd
-
+ 
+noMeiryoUI
+======================================================
+ * Install => C:\noMeiryoUI
+ * Run => Set all font => PingFang, 10 (X13: 12)
+ * Merge => 14_window_font_size.reg
+ 
 Input Method
 ======================================================
  * Run as admin -> RIME\10_config_rime_windows.cmd

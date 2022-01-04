@@ -1,9 +1,10 @@
 Windows Registry Editor Version 5.00
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Options -> Visual Design -> Theme Settings
+;; * Belize Theme => Activate SAP Fiori features
 [HKEY_CURRENT_USER\Software\SAP\General\Appearance]
 "SelectedTheme"=dword:00000800
-"SelectedFallbackTheme"=dword:00000800
+"SelectedFallbackTheme"=dword:00000100
 "AnimatedFocus"=dword:00000000
 "CorbuIcon"=dword:00000001
 "FioriToolbarButtonsWithIcons"=dword:00000001
