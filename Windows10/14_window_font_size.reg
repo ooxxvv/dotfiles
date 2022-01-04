@@ -1,6 +1,6 @@
 Windows Registry Editor Version 5.00
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Window Style (Title, Scroll Bar...)
+;; Window Size (Title, Scroll Bar...)
 [HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics]
 "CaptionHeight"="-240"
 "CaptionWidth"="-240"
@@ -9,8 +9,4 @@ Windows Registry Editor Version 5.00
 "SmCaptionHeight"="-240"
 "SmCaptionWidth"="-240"
 "BorderWidth"="-30"
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Font setting for Console (CMD & PowerShell)
-[HKEY_CURRENT_USER\Console]
-"FaceName"="MyHeiBVSmono"
-"FontSize"=dword:00140000
+

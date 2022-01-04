@@ -47,5 +47,9 @@ Windows Registry Editor Version 5.00
 "sTimeFormat"="HH:mm:ss"
 "sShortTime"="HH:mm"
 "iFirstDayOfWeek"="0"
-
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Font setting for Console (CMD & PowerShell)
+[HKEY_CURRENT_USER\Console]
+"FaceName"="MyHeiBVSmono"
+"FontSize"=dword:00140000
 
