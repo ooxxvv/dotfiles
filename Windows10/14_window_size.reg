@@ -1,5 +1,11 @@
 Windows Registry Editor Version 5.00
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Font setting for Console (CMD & PowerShell)
+;;  * Avoid wrong code in terminal
+[HKEY_CURRENT_USER\Console]
+"FaceName"="MyHeiBVSmono"
+"FontSize"=dword:00140000
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Window Size (Title, Scroll Bar...)
 [HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics]
 "CaptionHeight"="-240"
