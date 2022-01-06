@@ -14,7 +14,7 @@ VSCode
  * Download & Install
    * Disable: Context menu of File
    * Disable: Context menu of Directory
-   * Enable: Link supported file types
+   * Disable: Link supported file types
    * Enable: Add to PATH
  * Run and Disable: Show welcome page on startup
  * Extension
