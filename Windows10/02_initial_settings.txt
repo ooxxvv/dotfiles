@@ -1,11 +1,22 @@
-﻿Firefox
+﻿Dropbox
+======================================================
+ * Install & Login
+
+Firefox
 ======================================================
  * Run as admin => Firefox/10_copy_profile_for_windows.cmd
+
+Ubuntu for WSL
+====================================================== 
+ * Microsoft Store => Ubuntu => Install & Active
+   * Set username and password
+ * Microsoft Store => Windows Terminal
+   * Active and then exit
+   * Run as admin -> WindowsTerminal/10_config_windows_terminal.cmd
 
 Task Bar
 ======================================================
  * Unpin all icons on task bar
- * System Tray: Show All Icons
  * System Icon => Remove control center
 
 Start

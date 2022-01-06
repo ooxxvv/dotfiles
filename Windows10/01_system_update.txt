@@ -1,29 +1,14 @@
-System
+System Update
 ======================================================
- * Application and Function => Turn on/off Windows Function
-   * Windows Subsystem Linux
+ * Waiting for auto update drivers and manual reboot few times 
  * Change Computer Name
  * Change Key (Upgrade to Pro)
- * Reboot
-
-Windows Update
-======================================================
+ * Application and Function => Turn on/off Windows Function
+   * Windows Subsystem Linux
  * Delivery Optimization
    * Allow downloads from other PCs => Disable
- * Update until newest version
+ * Waitting for windows update to newest version
  * Reboot
-
-Ubuntu for WSL
-====================================================== 
- * Microsoft Store => Ubuntu => Install & Active
-   * Set username and password
- * Microsoft Store => Windows Terminal
-   * Active and then exit
-   * Run as admin -> WindowsTerminal/10_config_windows_terminal.cmd
-
-Dropbox
-======================================================
- * Install & Login
 
 OneDrive
 ======================================================
