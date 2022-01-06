@@ -6,18 +6,6 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Control Panel\Desktop]
 "CursorBlinkRate"="-1"
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; * Personalization: Taskbar
-;;   * Use small taskbar buttons: Enable
-;;   * Replace CMD with PowerShell: Disable
-[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
-"TaskbarSmallIcons"=dword:00000001
-"DontUsePowerShellOnWinX"=dword:00000001
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; * Personalization: Taskbar: Select which icons appear on the taskbar
-;;   * Always show all icons: Enable
-[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer]
-"EnableAutoTray"=dword:00000000
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Personalization: Background: Stretch
 [HKEY_CURRENT_USER\Control Panel\Desktop]
 "WallpaperStyle"="2"

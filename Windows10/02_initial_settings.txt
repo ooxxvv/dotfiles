@@ -14,17 +14,6 @@ Ubuntu for WSL
    * Active and then exit
    * Run as admin -> WindowsTerminal/10_config_windows_terminal.cmd
 
-Task Bar
-======================================================
- * Unpin all icons on task bar
- * System Icon => Remove control center
-
-Start
-======================================================
- * Remove default cubes on menu (by group)
- * Star => Disable all, only keep "Show app list in Start Menu"
- * Show folders on Start: Disable all
-
 File Explorer
 ======================================================
  * Unpin system folders
@@ -43,6 +32,18 @@ Theme
  * Lock Screen:
     * Change Background image (As same as wallpaper)
     * Don't show tips on login window
+
+Task Bar
+======================================================
+ * Unpin all icons on task bar
+ * Show all stray icon
+ * Auto hide
+
+Start
+======================================================
+ * Remove default cubes on menu (by group)
+ * Star => Disable all, only keep "Show app list in Start Menu"
+ * Show folders on Start: Disable all
 
 Fonts
 ======================================================
@@ -73,7 +74,7 @@ noMeiryoUI
 ======================================================
  * Install => C:\noMeiryoUI
  * Run => Set all font => PingFang, 10pt (X13: 11pt)
- * Merge => 14_window_size.reg (Not for X13)
+ * Merge => 14_window_size.reg (NOT for X13)
  
 Input Method
 ======================================================

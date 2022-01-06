@@ -2,7 +2,7 @@ patch:
 
   style/color_scheme: cool_breeze
   style/font_face: "Noto Sans CJK TC Medium"
-  style/font_point: 14
+  style/font_point: 12
   style/horizontal: false
   style/inline_preedit: false
 
