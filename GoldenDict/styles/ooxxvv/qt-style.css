@@ -1,12 +1,12 @@
 QToolTip, QLabel, QMenu, QTabBar, QCheckBox, QListView, QPushButton, QRadioButton,
 QTreeView, QLineEdit, QFrame, QComboBox, QGroupBox, QSpinBox {
     font-family: "PingFang TC Medium", "Noto Sans CJK TC Medium", "Microsoft JhengHei";
-    font-size: 14pt;
+    font-size: 11pt;
 }
 
 /* 工具列中的查詢欄；不顯示搜尋框時才會有 */
 #navToolbar #translateLine {
     font-family: "PingFang TC Medium", "Noto Sans CJK TC Medium", "Microsoft JhengHei";
-    font-size: 16pt;
+    font-size: 11pt;
 }
 
