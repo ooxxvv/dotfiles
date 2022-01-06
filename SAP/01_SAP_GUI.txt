@@ -3,10 +3,9 @@ SAP GUI for Windows
  * Install SAP GUI for Windows 7.60 via SetupAll.exe
    * SAP GUI for Windows
    * Update Patch
- * Config
-   * Merge -> 10_Frontend.reg
-   * Run as admin -> 11_Connection.cmd
- * ABAP Editor
-   * Login & Display a report via SE38 to create default ABAP setting files
-   * Run as admin -> 12_ABAP_Editor.cmd
+   
+ * Import settings
+   * SAP Logon => Options => Restore & Cleanup => Migrate Configuration & Settings
+   * Import form sData
+   
  * Reboot

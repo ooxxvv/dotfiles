@@ -4,14 +4,14 @@ NodeJS and NPM on WSL
  * Node.js (v14)
    * curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
    * sudo apt-get -y install nodejs
+   * sudo npm install --global @ui5/cli
+   * sudo npm install --global mta
 
-SAP Fiori(UI5) Tools 
+SAP Fiori Tools on WSL
 =====================================================
- * https://developers.sap.com/tutorials/fiori-tools-vscode-setup.html
- * Run VSCode with WSL folder
- * Ctrl+Shift+x
- * Install:
-   * SAP Fiori Tools - Application Modeler
-   * SAP Fiori Tools - Guided Development
-   * SAP Fiori Tools - Service Modeler
-   * SAP Fiori Tools - XML Annotation Language Server
+ * Run WSL
+ * cd /mnt/a/Code && code .
+ * Ctrl+Shift+x => SAP Fiori Tools - Extension Pack => Install
+ * Develop SAP Fiori Applications with SAP Fiori tools
+  * https://help.sap.com/viewer/17d50220bcd848aa854c9c182d65b699/Latest/en-US/f09752ebcf63473e9194ea29ca232e56.html
+
