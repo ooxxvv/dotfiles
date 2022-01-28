@@ -12,7 +12,7 @@ echo "======================================================================="
 mklink /D A:\oHome %USERPROFILE%
 mklink /D A:\Desktop %USERPROFILE%\Desktop
 mklink /D A:\Dropbox "%USERPROFILE%\Dropbox (­Ó¤H)"
-mklink /D A:\wDropbox "%USERPROFILE%\Dropbox (ESUTEK)"
+mklink /D A:\OneDrive "%USERPROFILE%\OneDrive"
 
 mkdir %USERPROFILE%\Code
 mklink /D A:\Code %USERPROFILE%\Code

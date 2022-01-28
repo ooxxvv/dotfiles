@@ -12,7 +12,7 @@ System Update
 
 OneDrive
 ======================================================
- * Disable autostart, Unlink account & close it
+ * Login and Sync
 
 Firefox
 ======================================================
