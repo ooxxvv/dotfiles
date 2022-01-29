@@ -3,9 +3,9 @@ SAP GUI for Windows
  * Install SAP GUI for Windows 7.60 via SetupAll.exe
    * SAP GUI for Windows
    * Update Patch
+   * Reboot
    
  * Import settings
    * SAP Logon => Options => Restore & Cleanup => Migrate Configuration & Settings
    * Import form sData
    
- * Reboot

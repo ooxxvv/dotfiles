@@ -3,9 +3,9 @@ NodeJS and NPM on WSL
  * Run WSL
  * Node.js (v14)
    * curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
-   * sudo apt-get -y install nodejs
-   * sudo npm install --global @ui5/cli
+   * sudo apt -y install nodejs
    * sudo npm install --global mta
+   * sudo npm install --global @ui5/cli
 
 SAP Fiori Tools on WSL
 =====================================================

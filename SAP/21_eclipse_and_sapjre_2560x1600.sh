@@ -16,7 +16,7 @@ sudo apt install -y unzip
 
 echo "=============== Eclipse ==============================================="
 url_base="http://download.eclipse.org/technology/epp/downloads/release"
-ver_num="2021-06"
+ver_num="2021-09"
 from_url="$url_base/$ver_num/R/eclipse-java-$ver_num-R-win32-x86_64.zip"
 to_file="$to_dir/eclipse-$ver_num.zip"
 echo "Version: $ver_num"
@@ -31,7 +31,7 @@ unzip -o $to_file -d $install_dir
 
 echo "=============== SAP Java Machine (JRE) ================================"
 url_base="https://github.com/SAP/SapMachine/releases/download"
-ver_num="11.0.8"
+ver_num="17.0.2"
 from_url="$url_base/sapmachine-$ver_num/sapmachine-jre-"$ver_num"_windows-x64_bin.zip"
 to_file="$to_dir/sapjre-$ver_num.zip"
 echo "Version: $ver_num"
