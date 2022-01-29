@@ -9,7 +9,6 @@ SSH Config
 
 Git config
 ==================================
- * sudo apt install -y git-lfs
  * cd /mnt/a/Code && git clone git@github.com:ooxxvv/dotfiles
  * cp /mnt/a/Code/dotfiles/Git/gitconfig.linux ~/.gitconfig
  * Commit and Delete dotfiles that clone by HTTPS
