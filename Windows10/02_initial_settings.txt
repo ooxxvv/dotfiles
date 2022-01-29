@@ -69,12 +69,11 @@ Nodepad2
 ======================================================
  * Install
  * Run as admin => Notepad2\10_config_notepad2.cmd
- 
+
 noMeiryoUI
 ======================================================
  * Install => C:\noMeiryoUI
  * Run => Set all font => PingFang, 10pt (X13: 11pt)
- * Merge => 14_window_size.reg (NOT for X13)
  
 Input Method
 ======================================================

@@ -30,6 +30,12 @@ GoldenDict
  * Install => Extract to C:\GoldenDict
  * Run as admin => GoldenDict/10_config_goldendict_for_windows.cmd
 
+noMeiryoUI
+======================================================
+ * Set again => all font => PingFang, 10pt (X13: 11pt)
+ * Merge => 14_window_size.reg (NOT for X13)
+ * Reboot
+ 
 ImageGlass 
 ============================================
  * Install & Launch

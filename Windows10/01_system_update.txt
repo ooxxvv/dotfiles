@@ -10,6 +10,11 @@ System Update
  * Waitting for windows update to newest version
  * Reboot
 
+Disable Window Search
+======================================================
+ * Start => Service => Windows Search
+   * Stop and Disable
+
 OneDrive
 ======================================================
  * Login and Sync
