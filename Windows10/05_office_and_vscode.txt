@@ -6,7 +6,8 @@
 MS Office
 ==================================
  * Download & Install
-  * Dropbox/sData/MSoffice
+  * https://setup.office.com
+  * Install from Microsoft Account
  * Active by run Excel once
 
 VSCode
