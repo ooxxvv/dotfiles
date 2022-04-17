@@ -69,8 +69,8 @@ curl -kL $from_url > $to_file
 
 echo '==================== noMeiryoUI ======================================='
 url_base="https://github.com/Tatsu-syo/noMeiryoUI/releases/download"
-ver_num="TAG-2.41"
-from_url="$url_base/$ver_num/noMeiryoUI241.zip"
+ver_num="TAG-3.0.0"
+from_url="$url_base/$ver_num/noMeiryoUI3.0.0.zip"
 to_file="$to_dir/noMeiryoUI.zip"
 
 echo "Version: $ver_num"
