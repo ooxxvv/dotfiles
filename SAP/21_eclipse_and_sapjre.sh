@@ -16,7 +16,7 @@ sudo apt install -y unzip
 
 echo "=============== Eclipse ==============================================="
 url_base="http://download.eclipse.org/technology/epp/downloads/release"
-ver_num="2021-09"
+ver_num="2022-06"
 from_url="$url_base/$ver_num/R/eclipse-java-$ver_num-R-win32-x86_64.zip"
 to_file="$to_dir/eclipse-$ver_num.zip"
 echo "Version: $ver_num"
@@ -29,27 +29,27 @@ fi
 echo "=============== Unzip to $install_dir ================================="
 unzip -o $to_file -d $install_dir
 
-echo "=============== SAP Java Machine (JRE) ================================"
-url_base="https://github.com/SAP/SapMachine/releases/download"
-ver_num="17.0.2"
-from_url="$url_base/sapmachine-$ver_num/sapmachine-jre-"$ver_num"_windows-x64_bin.zip"
-to_file="$to_dir/sapjre-$ver_num.zip"
-echo "Version: $ver_num"
-echo "Save To: $to_file"
+#echo "=============== SAP Java Machine (JRE) ================================"
+#url_base="https://github.com/SAP/SapMachine/releases/download"
+#ver_num="17.0.2"
+#from_url="$url_base/sapmachine-$ver_num/sapmachine-jre-"$ver_num"_windows-x64_bin.zip"
+#to_file="$to_dir/sapjre-$ver_num.zip"
+#echo "Version: $ver_num"
+#echo "Save To: $to_file"
 
-if [ ! -f "$to_file" ]; then
-  curl -kL $from_url > $to_file
-fi
+#if [ ! -f "$to_file" ]; then
+#  curl -kL $from_url > $to_file
+#fi
 
-echo "=============== Unzip to $install_dir/eclipse/jre ====================="
-unzip -o $to_file -d $install_dir/eclipse/jre
-cp -rf $install_dir/eclipse/jre/sapmachine-jre-$ver_num/. $install_dir/eclipse/jre/
-rm -r $install_dir/eclipse/jre/sapmachine-jre-$ver_num
+#echo "=============== Unzip to $install_dir/eclipse/jre ====================="
+#unzip -o $to_file -d $install_dir/eclipse/jre
+#cp -rf $install_dir/eclipse/jre/sapmachine-jre-$ver_num/. $install_dir/eclipse/jre/
+#rm -r $install_dir/eclipse/jre/sapmachine-jre-$ver_num
 
-echo "=============== Set sacle to fix small icon ==========================="
-echo "-Dswt.enable.autoScale=true" >> $ini_file
-echo "-Dswt.autoScale=150" >> $ini_file
-echo "-Dswt.autoScale.method=nearest" >> $ini_file
+#echo "=============== Set sacle to fix small icon ==========================="
+#echo "-Dswt.enable.autoScale=true" >> $ini_file
+#echo "-Dswt.autoScale=150" >> $ini_file
+#echo "-Dswt.autoScale.method=nearest" >> $ini_file
 
 echo "=============== Done ==================================================="
 
