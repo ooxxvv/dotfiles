@@ -29,7 +29,7 @@ Disk Manager
  * Remove partiton for backup (563MB)
  * Start -> CMD
    * diskpart, list disk, select disk
-   * select partition, delete partition override
+   * list partition, select partition=, delete partition override
  * Start -> Disk Manager
    * A: WINA
    * C: WINC

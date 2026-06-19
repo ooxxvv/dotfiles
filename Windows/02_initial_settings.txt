@@ -11,7 +11,7 @@ Mouse
 ======================================================
  * T495s: TrackPoint: 5 (Default), Speed: 17 
  * X13 Gen2: TrackPoint: 10, Speed: 17
- * X1 Carbon Gen8: Trackpoint: 10, Speed: 17
+ * X1 Carbon Gen8: Trackpoint: 8, Speed: 20
 
 Fonts
 ======================================================
@@ -54,7 +54,7 @@ File Explorer
  * Pin -> Recycle Bin & Disks (Exclude C)
  * View -> Options -> Clean & Don't show any history
 
-Nodepad2
+Nodepad4
 ======================================================
  * Install
  * Run as admin => Notepad2\10_config_notepad2.cmd
