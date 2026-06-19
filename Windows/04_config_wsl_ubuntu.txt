@@ -4,7 +4,7 @@
 
 SSH Config
 ==================================
- * cp -rf /mnt/a/Dropbox/sData/SSH ~/.ssh
+ * cp -rf /mnt/a/Dropbox/mData/SSH ~/.ssh
  * find ~/.ssh -type f -print0 | xargs -0 chmod 600
 
 Git config

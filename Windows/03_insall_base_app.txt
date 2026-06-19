@@ -1,10 +1,18 @@
-﻿Total Commander
+﻿Keypirinha
+==================================
+ * Install => Extract to C:\Keypirinha
+ * Run as admin => Keypirinha/10_config_keypirinha.cmd
+ 
+Total Commander
 ==================================
   * Install
     * C:\TotalCommander
     * Language -> English
     * No other languages
   * Run as admin => TotalCommander/10_config_total_commander.cmd
+  * Config:
+    * Font: Disable DPI, all fount is PingFun (X1c 14pt)
+    * Icons: X1c: 64x64 & 32x32
 
 KeePassXC 
 ==================================
@@ -19,26 +27,11 @@ KeePassXC
  * Run & Config
    * Link all supported file type
    * Only two options for context menu
-
-Keypirinha
-==================================
- * Install => Extract to C:\Keypirinha
- * Run as admin => Keypirinha/10_config_keypirinha.cmd
-
+   
 GoldenDict
 ==================================
- * Install => Extract to C:\GoldenDict
+ * Download from github
+ * Install => C:\GoldenDict
+ * Download Dict => Desktop\Dict (OneDrive)
  * Run as admin => GoldenDict/10_config_goldendict_for_windows.cmd
-
-noMeiryoUI
-======================================================
- * Set again => all font => PingFang, 10pt (X13: 11pt)
- * Merge => 14_window_size.reg (NOT for X13)
- * Reboot
  
-ImageGlass 
-============================================
- * Install & Launch
-   * Yes => Set ImageGlass as Default Photo Viewer
- * Application => Default Application
-   * Photo Viewer => ImageGlass

@@ -1,0 +1,90 @@
+﻿Dropbox
+======================================================
+ * Install & Login
+
+Display Settings
+======================================================
+ * Monitor: 125%, (X13: 175%, X1c: 200%)
+ * Text Size: 120%, (X13: 100%, X1c: 150%)
+ 
+Mouse
+======================================================
+ * T495s: TrackPoint: 5 (Default), Speed: 17 
+ * X13 Gen2: TrackPoint: 10, Speed: 17
+ * X1 Carbon Gen8: Trackpoint: 10, Speed: 17
+
+Fonts
+======================================================
+ * Install for all users -> FontBase (Dropbox)
+ * Install for all users -> FontWindowsCMD (Dropbox)
+
+noMeiryoUI
+======================================================
+ * Install => C:\noMeiryoUI
+ * Run => Set all font => PingFang, 10pt (X13: 11pt, X1c: 15pt)
+
+Windows Script
+======================================================
+ * Merge -> 11_personalization.reg
+ * Merge -> 12_keyboard_shortcut.reg
+ * Run as admin -> 13_power_manager_and_link_symbols.cmd
+ 
+Theme
+======================================================
+ * Cursor => via Context Menu => cursor/1st_simple_colorful_24px.inf
+ * Theme => deskthemepack/02_one.deskthemepack
+ * Lock Screen:
+    * Change Background image (As same as wallpaper)
+    * Don't show tips on login window
+
+Task Bar
+======================================================
+ * Unpin all icons on task bar
+ * Show all stray icon
+
+Start
+======================================================
+ * Remove default cubes on menu (by group)
+ * Star => Disable all, only keep "Show app list in Start Menu"
+ * Show folders on Start: Disable all
+
+File Explorer
+======================================================
+ * Unpin system folders
+ * Pin -> Recycle Bin & Disks (Exclude C)
+ * View -> Options -> Clean & Don't show any history
+
+Nodepad2
+======================================================
+ * Install
+ * Run as admin => Notepad2\10_config_notepad2.cmd
+ * Default Font: Sarasa Fixed TC, (X1c: 16pt)
+
+Firefox
+======================================================
+ * Run as admin => Firefox/10_copy_profile_for_windows.cmd
+
+Ubuntu for WSL (Win10)
+====================================================== 
+ * Microsoft Store => Ubuntu => Install & Active
+   * Set username and password
+ * Microsoft Store => Windows Terminal
+   * Active and then exit
+   * Run as admin -> WindowsTerminal/10_config_windows_terminal.cmd
+  
+Ubuntu for WSL (Win11)
+====================================================== 
+ * CMD: wsl --install ubuntu
+   * Set username (one) and passowrd
+ * Windows Terminal: Set default as Ubuntu
+    
+Input Method
+======================================================
+ * Run as admin -> RIME\10_config_rime_windows.cmd
+ * Install RIME (Weasel)
+ * Language
+   * Set only one languages: zh-TW
+   * Set only one input method for TW: 小狼毫
+ * Merage -> 16_disable_ctrl_space.reg
+ * Reboot
+
