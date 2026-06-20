@@ -66,8 +66,8 @@ File Explorer
 
 Nodepad4
 ======================================================
- * Install
- * Run as admin => Notepad2\10_config_notepad2.cmd
+ * Install => C:\Notepad4
+ * Run as admin => Notepadˋ\10_config_notepad4.cmd
  * Default Font: Sarasa Fixed TC, (X1c: 16pt)
 
 Firefox

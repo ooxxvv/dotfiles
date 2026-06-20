@@ -9,17 +9,6 @@ SSH Config
  * cp -rf /mnt/a/Dropbox/mData/SSH ~/.ssh
  * find ~/.ssh -type f -print0 | xargs -0 chmod 600
 
-Vim
-=============================================
- * sh /mnt/a/Code/dotfiles/Vim/10_config_vim_linux.sh
-
-ZSH & oh-my-zsh
-==================================
- * sudo apt -y install zsh
- * sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
- * sh /mnt/a/Code/dotfiles/ZSH/00_install_theme.sh
- * exit
-
 Git config
 ==================================
  * cd /mnt/a/Code && git clone git@github.com:ooxxvv/dotfiles
@@ -27,7 +16,28 @@ Git config
  * Commit and Delete dotfiles that clone by HTTPS
  * Pull again for dotfiles in /mnt/a/Code (if changed)
 
+Vim
+=============================================
+ * sh /mnt/a/Code/dotfiles/Vim/10_config_vim_linux.sh
+ 
+ZSH & oh-my-zsh
+==================================
+ * sudo apt -y install zsh
+ * sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+ * sh /mnt/a/Code/dotfiles/ZSH/00_install_theme.sh
+ * vim ~/.zshrc
+  * After plugins=(git), Add=>zstyle ':omz:alpha:lib:git' async-prompt no
+ * exit
+
 Remove background color for result of ls
 ==========================================
  * sh 41_change_color_for_ls.sh
- * Reboot
+ * exit
+ 
+Windows Terminal SendTo
+==========================================
+ * Run as admin: 11_terminal_for_send_to.cmd
+
+
+
+

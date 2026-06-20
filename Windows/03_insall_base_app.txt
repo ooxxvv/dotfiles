@@ -11,8 +11,8 @@ Total Commander
     * No other languages
   * Run as admin => TotalCommander/10_config_total_commander.cmd
   * Config:
-    * Font: Disable DPI, all fount is PingFun (X1c 14pt)
-    * Icons: X1c: 64x64 & 32x32
+    * Font: Disable DPI, all fount is PingFun (X13 12pt, X1c 14pt)
+    * Icons: X13: 48x48 & 24x24, X1c: 64x64 & 32x32
 
 KeePassXC 
 ==================================
