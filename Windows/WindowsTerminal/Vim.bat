@@ -10,7 +10,7 @@ set path_of_file=%~dp1
 if "%1%"=="" (
   wt -d "%UserProfile%" wsl vim
 ) else (
-  wt -d "%path_of_file:~0,-1%" wsl vim "%~nx1"
+  wt -d "%path_of_file:~0,-1%" vim "%~nx1"
 )
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 endlocal
