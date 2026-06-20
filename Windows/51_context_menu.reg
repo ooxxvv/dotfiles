@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Remove items on context menu
+[HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers]
+[-HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\FileSyncEx]
+[-HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\DropboxExt]
+[-HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\EPP]
+[-HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\gvim]
+[-HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\ModernSharing]
+[-HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\Open With EncryptionMenu]
+[-HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\Sharing]

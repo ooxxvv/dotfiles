@@ -1,16 +1,5 @@
 Windows Registry Editor Version 5.00
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Remove items on context menu
-[HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers]
-[-HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\FileSyncEx]
-[-HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\DropboxExt]
-[-HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\EPP]
-[-HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\gvim]
-[-HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\ModernSharing]
-[-HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\Open With EncryptionMenu]
-[-HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\Sharing]
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Image file types (ImageGlass)
 [-HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.ico\UserChoice]
 [HKEY_CLASSES_ROOT\ImageGlass.AssocFile.BMP\DefaultIcon]

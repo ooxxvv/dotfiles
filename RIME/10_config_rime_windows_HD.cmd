@@ -14,7 +14,7 @@ echo "= * RIME/weasel_2560x1600.custom.yaml to %APPDATA%\\Rime\\ "
 echo "======================================================================="
 md %config_dir%
 copy /y %this_dir%\rime_files\*.* "%config_dir%\"
-copy /y %this_dir%\weasel_2560x1600.custom.yaml "%config_dir%\weasel.custom.yaml"
+copy /y %this_dir%\weasel_HD.custom.yaml "%config_dir%\weasel.custom.yaml"
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 echo "========== All Done ==================================================="
