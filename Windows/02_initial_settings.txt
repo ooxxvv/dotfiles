@@ -39,6 +39,16 @@ Theme
 
 Task Bar
 ======================================================
+ * Install => StartAllBack
+   * Start Menu: Disable
+   * Taskbar Icon: M
+   * Taskbar Icon Margin: Right
+   * Taskbar Position: Right
+   * Taskbar Dynamic Transparent: Enable
+   * Taskbar Width: Unlock, Adjust until show weekday
+   * Stystem Tray Icon Margin: L
+   * Stystem Tray Icon: Alwasys show all
+   * FileExplorer: Enable: class context menu
  * Unpin all icons on task bar
  * Show all stray icon
 

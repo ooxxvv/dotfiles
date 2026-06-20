@@ -5,7 +5,7 @@ setlocal
 :::::::::::::::::::::::::::::::::::::::::::: Working Directory & Variable :::
 cd /d %~dp0
 set this_dir=%cd%
-set config_dir=%UserProfile%\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState
+set config_dir=%LocalAppData%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: Process :::
 echo "=============== Copy settings.json ===================================="
