@@ -9,3 +9,5 @@ Windows Registry Editor Version 5.00
 [-HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\ModernSharing]
 [-HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\Open With EncryptionMenu]
 [-HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\Sharing]
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Blocked]
+"1FDA2AF0-7B1A-4B69-922B-7D94553AFDB2"=""
