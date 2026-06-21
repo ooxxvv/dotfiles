@@ -25,6 +25,9 @@ Git config
  * cp /mnt/a/Code/dotfiles/Git/gitconfig.linux ~/.gitconfig
  * Commit and Delete dotfiles that clone by HTTPS
  * Pull again for dotfiles in /mnt/a/Code (if changed)
+ * git config --global core.editor "vim"
+ * git config --global user.name
+ * git config --global user.email
 
 Vim
 =============================================
