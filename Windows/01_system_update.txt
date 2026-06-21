@@ -15,9 +15,9 @@ Disable Window Search
  * Start => Service => Windows Search
    * Stop and Disable
 
-OneDrive
+Dropbox
 ======================================================
- * Login and Sync
+ * Install & Login
 
 Firefox
 ======================================================

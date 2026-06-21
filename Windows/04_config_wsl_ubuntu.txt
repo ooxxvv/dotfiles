@@ -7,6 +7,7 @@
    * Exit
  * Run as admin: 10_config_windows_terminal
  * Windows Terminal: Set default as Ubuntu
+   * Font: X13: 12pt
  
 Ubuntu System Update
 ===================================
@@ -22,12 +23,10 @@ Git config
 ==================================
  * cd /mnt/a/Code && git clone git@github.com:ooxxvv/dotfiles
  * cp /mnt/a/Code/dotfiles/Git/gitconfig.linux ~/.gitconfig
- * Commit and Delete dotfiles that clone by HTTPS
- * Pull again for dotfiles in /mnt/a/Code (if changed)
  * git config --global core.editor "vim"
  * git config --global user.name
  * git config --global user.email
-
+ 
 Vim
 =============================================
  * sh /mnt/a/Code/dotfiles/Vim/10_config_vim_linux.sh
@@ -46,6 +45,10 @@ Remove background color for result of ls
  * sh 41_change_color_for_ls.sh
  * exit
 
+Push dotfiles
+==========================================
+ * Commit and Delete dotfiles that clone by HTTPS
+ * Pull again for dotfiles in /mnt/a/Code (if changed)
 
 
 

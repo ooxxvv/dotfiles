@@ -1,7 +1,7 @@
-﻿Dropbox
+﻿OneDrive
 ======================================================
- * Install & Login
-
+ * Login and Sync
+ 
 Display Settings
 ======================================================
  * Monitor: 125%, (X13: 175%, X1c: 200%)
@@ -10,7 +10,7 @@ Display Settings
 Mouse
 ======================================================
  * T495s: TrackPoint: 5 (Default), Speed: 17 
- * X13 Gen2: TrackPoint: 10, Speed: 17
+ * X13 Gen2: TrackPoint: 8, Speed: 16
  * X1 Carbon Gen8: Trackpoint: 7, Speed: 20
 
 Fonts
@@ -25,16 +25,16 @@ noMeiryoUI
 
 Windows Script
 ======================================================
- * Merge -> 11_personalization.reg
+ * Merge -> 11_disable_ctrl_space.reg
  * Merge -> 12_keyboard_shortcut.reg
- * Run as admin -> 13_power_manager_and_link_symbols.cmd
- 
+ * Run as admin -> 13_link_symbols.cmd
+
 Theme
 ======================================================
  * Cursor => via Context Menu => cursor/1st_simple_colorful_24px.inf
  * Theme => deskthemepack/02_one.deskthemepack
  * Lock Screen:
-    * Change Background image (As same as wallpaper)
+    * Change Background image => 03_Logon
     * Don't show tips on login window
 
 Task Bar
@@ -64,15 +64,15 @@ File Explorer
  * Pin -> Recycle Bin & Disks (Exclude C)
  * View -> Options -> Clean & Don't show any history
 
+Firefox
+======================================================
+ * Run as admin => Firefox/10_copy_profile_for_windows.cmd
+
 Nodepad2
 ======================================================
  * Install
  * Run as admin => Notepadˋ\10_config_notepad2.cmd
- * Default Font: Fira Mono, (X1c: 14pt)
-
-Firefox
-======================================================
- * Run as admin => Firefox/10_copy_profile_for_windows.cmd
+ * Default Font: Fira Mono, (X13: 11pt, X1c: 14pt)
 
 Input Method
 ======================================================
@@ -81,6 +81,5 @@ Input Method
  * Language
    * Set only one languages: zh-TW
    * Set only one input method for TW: 小狼毫
- * Merage -> 16_disable_ctrl_space.reg
  * Reboot
 

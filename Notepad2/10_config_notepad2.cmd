@@ -13,7 +13,7 @@ set lnk_file=%ProgramData%\Microsoft\Windows\Start Menu\Programs\Notepad2.lnk
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: Process :::
 echo "=============== Configurtion Files ===================================="
 echo "======================================================================="
-::copy /y "%this_dir%\Notepad4.ini" "%config_dir%\"
+copy /y "%this_dir%\Notepad2.ini" "%config_dir%\"
 
 echo "=============== Shortcut for Start Menu ==============================="
 echo "======================================================================="
