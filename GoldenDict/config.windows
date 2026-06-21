@@ -1,16 +1,17 @@
 <config>
  <paths>
-  <path recursive="1">a:/oHome/AppData/Roaming/GoldenDict/Dictionary</path>
+  <path recursive="0">%AppData%/GoldenDict/Dictionary</path>
+  <path recursive="1">C:/Users/one/AppData/Roaming/GoldenDict/Dictionary</path>
  </paths>
  <sounddirs/>
- <dictionaryOrder id="0" name="">
+ <dictionaryOrder name="" id="0">
   <mutedDictionaries/>
  </dictionaryOrder>
- <inactiveDictionaries id="0" name="">
+ <inactiveDictionaries name="" id="0">
   <mutedDictionaries/>
  </inactiveDictionaries>
  <groups nextId="1"/>
- <hunspell dictionariesPath="a:/oHome/AppData/Roaming/GoldenDict/Dictionary/Morphology">
+ <hunspell dictionariesPath="C:/Users/one/AppData/Roaming/GoldenDict/Dictionary/Morphology">
   <enabled>en_US</enabled>
  </hunspell>
  <transliteration>
@@ -64,7 +65,7 @@
   <doubleClickTranslates>1</doubleClickTranslates>
   <selectWordBySingleClick>0</selectWordBySingleClick>
   <escKeyHidesMainWindow>0</escKeyHidesMainWindow>
-  <zoomFactor>1.2</zoomFactor>
+  <zoomFactor>2.7</zoomFactor>
   <helpZoomFactor>1</helpZoomFactor>
   <wordsZoomLevel>0</wordsZoomLevel>
   <enableMainWindowHotkey>1</enableMainWindowHotkey>
@@ -108,12 +109,16 @@
   <disallowContentFromOtherSites>0</disallowContentFromOtherSites>
   <enableWebPlugins>0</enableWebPlugins>
   <hideGoldenDictHeader>0</hideGoldenDictHeader>
+  <maxNetworkCacheSize>50</maxNetworkCacheSize>
+  <clearNetworkCacheOnExit>1</clearNetworkCacheOnExit>
   <maxStringsInHistory>500</maxStringsInHistory>
   <storeHistory>1</storeHistory>
   <alwaysExpandOptionalParts>0</alwaysExpandOptionalParts>
   <addonStyle>ooxxvv</addonStyle>
   <collapseBigArticles>0</collapseBigArticles>
   <articleSizeLimit>2000</articleSizeLimit>
+  <limitInputPhraseLength>0</limitInputPhraseLength>
+  <inputPhraseLengthLimit>1000</inputPhraseLengthLimit>
   <maxDictionaryRefsInContextMenu>20</maxDictionaryRefsInContextMenu>
   <trackClipboardChanges>0</trackClipboardChanges>
   <synonymSearchEnabled>1</synonymSearchEnabled>
@@ -149,13 +154,15 @@
   <height>0</height>
  </maximizedMainWindowGeometry>
  <normalMainWindowGeometry>
-  <x>506</x>
-  <y>138</y>
-  <width>946</width>
-  <height>684</height>
+  <x>1086</x>
+  <y>397</y>
+  <width>2107</width>
+  <height>1425</height>
  </normalMainWindowGeometry>
  <dictInfoGeometry></dictInfoGeometry>
  <inspectorGeometry></inspectorGeometry>
+ <dictionariesDialogGeometry>AdnQywADAAAAAAPKAAACkQAADEEAAAZzAAADzAAAAssAAAw/AAAGcQAAAAAAAAAADwAAAAPMAAACywAADD8AAAZx</dictionariesDialogGeometry>
+ <printPreviewDialogGeometry></printPreviewDialogGeometry>
  <timeForNewReleaseCheck>2017-12-20T22:07:45</timeForNewReleaseCheck>
  <skippedRelease></skippedRelease>
  <showingDictBarNames>0</showingDictBarNames>

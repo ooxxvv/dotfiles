@@ -6,7 +6,7 @@ setlocal
 cd /d %~dp0
 set this_dir=%cd%
 
-set sdata_dir=a:\Desktop
+set sdata_dir=%UserProfile%\Desktop
 set config_dir=%AppData%\GoldenDict
 set exe_file=C:\GoldenDict\GoldenDict.exe
 set lnk_file=%ProgramData%\Microsoft\Windows\Start Menu\Programs\GoldenDict.lnk

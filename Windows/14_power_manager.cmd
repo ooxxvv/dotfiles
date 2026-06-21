@@ -7,24 +7,6 @@ cd /d %~dp0
 set this_dir=%cd%
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: Process :::
-echo "========== Symbolic Link for Home ====================================="
-echo "======================================================================="
-mklink /D A:\oHome %USERPROFILE%
-mklink /D A:\Desktop %USERPROFILE%\Desktop
-mklink /D A:\Dropbox "%USERPROFILE%\Dropbox"
-mklink /D A:\OneDrive "%USERPROFILE%\OneDrive"
-
-mkdir %USERPROFILE%\Code
-mklink /D A:\Code %USERPROFILE%\Code
-
-echo "========== Windows Service & Task ====================================="
-echo "= * Set LIMITED: Windows Defender Scheduled Scan"
-echo "= * Disable: Windows Search"
-echo "======================================================================="
-set task_name="\Microsoft\Windows\Windows Defender\Windows Defender Scheduled Scan"
-schtasks /change /rl LIMITED /tn %task_name%
-sc config WSearch start= disabled
-
 echo "========== Power Manager =============================================="
 echo "= Time for Shutdown Screen: AC=30min, DC=5min"
 echo "= Never Sleep/Stand By"

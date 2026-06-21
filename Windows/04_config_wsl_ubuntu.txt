@@ -1,8 +1,18 @@
-﻿Ubuntu System Update
+﻿Ubuntu for WSL
+====================================================== 
+ * CMD: wsl
+   * Install WSL & Reboot PC
+ * CMD: wsl --install ubuntu
+   * Set username (one) and passowrd
+   * Exit
+ * Run as admin: 10_config_windows_terminal
+ * Run as admin: 11_terminal_for_send_to.cmd
+ * Windows Terminal: Set default as Ubuntu
+ 
+Ubuntu System Update
 ===================================
  * sudo apt update && sudo apt upgrade
- * sudo locale-gen en_US.UTF-8
- * sudo update-locale
+ * sudo locale-gen en_US.UTF-8 && sudo update-locale
 
 SSH Config
 ==================================
@@ -26,17 +36,14 @@ ZSH & oh-my-zsh
  * sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
  * sh /mnt/a/Code/dotfiles/ZSH/00_install_theme.sh
  * vim ~/.zshrc
-  * After plugins=(git), Add=>zstyle ':omz:alpha:lib:git' async-prompt no
+  * Before source $ZSH/oh-my-zsh.sh, Add=>zstyle ':omz:alpha:lib:git' async-prompt no
  * exit
 
 Remove background color for result of ls
 ==========================================
  * sh 41_change_color_for_ls.sh
  * exit
- 
-Windows Terminal SendTo
-==========================================
- * Run as admin: 11_terminal_for_send_to.cmd
+
 
 
 

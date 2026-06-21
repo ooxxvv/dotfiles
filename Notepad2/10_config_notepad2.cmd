@@ -7,13 +7,13 @@ cd /d %~dp0
 set this_dir=%cd%
 set config_dir=%AppData%
 set sendto_dir=%AppData%\Microsoft\Windows\SendTo
-set exe_file=C:\Notepad4\Notepad4.exe
-set lnk_file=%ProgramData%\Microsoft\Windows\Start Menu\Programs\Notepad4.lnk
+set exe_file=C:\Program Files\Notepad2\Notepad2.exe
+set lnk_file=%ProgramData%\Microsoft\Windows\Start Menu\Programs\Notepad2.lnk
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: Process :::
 echo "=============== Configurtion Files ===================================="
 echo "======================================================================="
-copy /y "%this_dir%\Notepad4.ini" "%config_dir%\"
+::copy /y "%this_dir%\Notepad4.ini" "%config_dir%\"
 
 echo "=============== Shortcut for Start Menu ==============================="
 echo "======================================================================="
@@ -27,7 +27,7 @@ echo "Created: %lnk_file%"
 echo "=============== Shortcut for SendTo ==================================="
 echo "======================================================================="
 del /q "%sendto_dir%\*.*"
-copy /y "%lnk_file%" "%sendto_dir%\Notepad4.lnk"
+copy /y "%lnk_file%" "%sendto_dir%\Notepad2.lnk"
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 echo "========== All Done ==================================================="
