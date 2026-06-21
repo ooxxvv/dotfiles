@@ -6,7 +6,6 @@
    * Set username (one) and passowrd
    * Exit
  * Run as admin: 10_config_windows_terminal
- * Run as admin: 11_terminal_for_send_to.cmd
  * Windows Terminal: Set default as Ubuntu
  
 Ubuntu System Update
