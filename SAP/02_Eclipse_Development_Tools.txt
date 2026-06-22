@@ -1,24 +1,15 @@
-Microsoft Visual C++ 2013 (x64) Runtime DLLs
-=================================================
- * Download & Install
-   * vcredist_x64.exe
-   * https://www.microsoft.com/zh-tw/download/details.aspx?id=40784
-
-Eclipse with SapMachine JRE
+Eclipse
 ======================================================
- * sh 21_eclipse_and_sapjre.sh
- * Run as admin -> 22_shortcut_for_windows.cmd
+ * https://www.eclipse.org/downloads/
+ * Extrac to C:/eclipse
 
-Eclipse Plugins & SAP Development Tooles
+SAP Development Tooles
 ======================================================
  * Default workspace -> C:\Sap\eclipse-workspace
- * Install Plugins
  * File -> Import -> General -> Preferences
-   * 23_preferences_all.epf
- * Exit
- * Run as admin -> 24_set_editor_font.cmd
+   * https://tools.hana.ondemand.com/
 
-Plugin List
+Other Plugins
 =====================================================
  * Vrapper (Vim Plugin)
    * http://vrapper.sourceforge.net/update-site/stable
