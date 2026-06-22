@@ -12,9 +12,13 @@ echo "======================================================================="
 mklink /D A:\oHome %USERPROFILE%
 mklink /D A:\Desktop %USERPROFILE%\Desktop
 mklink /D A:\Dropbox "%USERPROFILE%\Dropbox"
+mklink /D A:\OneDrive "%USERPROFILE%\OneDrive"
 
 mkdir %USERPROFILE%\Code
 mklink /D A:\Code %USERPROFILE%\Code
+
+mkdir %USERPROFILE%\Gdrive
+mklink /D A:\Gdrive %USERPROFILE%\Gdrive
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 echo "========== All Done ==================================================="
 pause

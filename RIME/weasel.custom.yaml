@@ -1,8 +1,16 @@
 patch:
-
   style/color_scheme: cool_breeze
   style/font_face: "Noto Sans CJK TC Medium"
   style/font_point: 10
   style/horizontal: false
   style/inline_preedit: false
-
+  style/horizontal: false
+  style/inline_preedit: false  
+  style/layout:
+    min_width: 70
+    round_corner: 0
+    border_width: 2
+    margin_x: 10  
+    margin_y: 10  
+    spacing: 5
+    candidate_spacing: 5

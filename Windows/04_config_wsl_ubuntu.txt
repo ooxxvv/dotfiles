@@ -49,6 +49,7 @@ Push dotfiles
 ==========================================
  * Commit and Delete dotfiles that clone by HTTPS
  * Pull again for dotfiles in /mnt/a/Code (if changed)
+ * exit
 
 
 
