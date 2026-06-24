@@ -1,4 +1,7 @@
 patch:
+  show_notifications: false
+  # schema/icon: icons/your_schema_icon.ico
+  # schema/ascii_icon: icons/your_schema_ascii_icon.ico
   style/color_scheme: cool_breeze
   style/font_face: "PingFang TC"
   style/font_point: 13
