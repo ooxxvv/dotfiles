@@ -1,16 +1,21 @@
 patch:
+  show_notifications: false
+  # schema/icon: icons/your_schema_icon.ico
+  # schema/ascii_icon: icons/your_schema_ascii_icon.ico
   style/color_scheme: cool_breeze
   style/font_face: "PingFang TC"
   style/font_point: 10
   style/inline_preedit: false
   style/horizontal: true
-  style/inline_preedit: false  
+  style/label_font_point: 11
   style/layout:
     min_width: 0
-		max_width: 0
+    max_width: 0
     round_corner: 0
     border_width: 2
-    margin_x: 10  
-    margin_y: 10  
-    spacing: 5
-    candidate_spacing: 5
+    margin_x: 5
+    margin_y: 2
+    spacing: 3
+    candidate_spacing: 10
+    hilite_spacing: 1
+    hilite_padding: 1

@@ -15,6 +15,7 @@ engine:
   processors:
     - ascii_composer
     - recognizer
+    - key_binder
     - speller
     - selector
     - express_editor
@@ -31,7 +32,6 @@ engine:
 recognizer:
   patterns:
     # 第一個字是字母，且包含任何符號的字，就視為英文字
-    eng_word: "^[A-Za-z].*$"
     email: "^[A-Za-z][-_.0-9A-Za-z]*@.*$"
     url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
 
@@ -57,5 +57,11 @@ translator:
   enable_completion: false
   enable_sentence: false
   enable_user_dict: false
-
-
+  
+key_binder:
+  bindings:
+    # 使用左右鍵選字
+    - { accept: Left, send: Up, when: composing }
+    - { accept: Right, send: Down, when: composing }
+    
+ 
