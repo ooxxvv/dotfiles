@@ -1,8 +1,24 @@
+/*-------------------------------------------------------------------------*/
+/* Enable Stylesheet Customization
+/*--about:config
+/*----toolkit.legacyUserProfileCustomizations.stylesheets = true
+/*-------------------------------------------------------------------------*/
 
-/*-- Hide Bookmark Folder Icon --------------------------------------------*/
+/* Tab: Radius */
+:root {
+  --tab-border-radius: 8px !important;
+}
+
+/* Tabbar Height */
+#tabbrowser-tabs,
+#tabbrowser-tabs > #tabbrowser-arrowscrollbox,
+.tabbrowser-tabs .tabbrowser-tab {
+  min-height: 32px !important;
+  max-height: 32px !important;
+  font-size: 14px !important;
+}
+
+/* Hide Bookmark Folder Icon */
 #personal-bookmarks toolbarbutton[container="true"] .toolbarbutton-menu-dropmarker {
 	display: none !important;
 }
-
-
-

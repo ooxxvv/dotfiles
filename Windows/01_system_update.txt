@@ -15,6 +15,11 @@ Disable Window Search
  * Start => Service => Windows Search
    * Stop and Disable
 
+CMD by Terminal
+======================================================
+ * %appdata%\Microsoft\Windows\Start Menu\Programs\System Tools\
+   * Rename Command Prompt.lnk to CMD by Terminal.lnk
+
 Dropbox
 ======================================================
  * Install & Login
