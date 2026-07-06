@@ -8,16 +8,15 @@ patch:
   menu:
     page_size: 9
 
-  # 中英切換的熱鍵只留下「Control_R」
+  # 中英切換的熱鍵
   ascii_composer/good_old_caps_lock: true
   ascii_composer/switch_key:
     Caps_Lock: noop
     Shift_L: noop
     Shift_R: noop
     Control_L: noop
-    Control_R: clear
+    Control_R: noop
 
   # 移除「方案切換」的其他熱鍵，因為太容易衝突
   switcher/hotkeys:
     - "Control+Shift+Num_Lock"
-
