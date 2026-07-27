@@ -7,10 +7,10 @@ schema:
   author: "劉重次 / 泰瑞系列中文輸入法對照表 / ooxxvv "
   description: bô-siánn-mih (嘸蝦米)
 
-# 預設模式為中文，用系統內建的美式鍵盤來輸入英文
+# 預設模式為英文
 switches:
   - name: ascii_mode
-    reset: 0
+    reset: 1
 
 engine:
   processors:

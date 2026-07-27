@@ -15,7 +15,7 @@ patch:
     Shift_L: noop
     Shift_R: noop
     Control_L: noop
-    Control_R: noop
+    Control_R: clear
 
   # 移除「方案切換」的其他熱鍵，因為太容易衝突
   switcher/hotkeys:
