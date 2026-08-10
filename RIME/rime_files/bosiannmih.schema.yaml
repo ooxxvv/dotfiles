@@ -32,26 +32,21 @@ engine:
 # (可以用 Email 來測試沒有 recognizer/patterns 的情況)
 recognizer:
   patterns:
-    # 第一個字是字母，且包含任何符號的字，就視為英文字
     email: "^[A-Za-z][-_.0-9A-Za-z]*@.*$"
     url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
 
-# 雖然大寫字母不能當做字根，但仍然把大寫字母放進 alphabet 列表中，
-# 這會讓任何有包含大寫字母的單字直接輸入成為英文，以減少切換中英模式的次數，
-# (可以用iPhone 這個字來測試不放大寫字母的效果)
-# 小於五碼有包含大寫的字，用空白鍵或 Enter 都會輸出英文，
-# 小於五碼的全小寫英文字，用空白鍵會輸出中文，用 Enter 會輸出英文。
+# 小於五碼的英文字，用空白鍵會輸出中文，用 Enter 會輸出英文。
 # 例如：we+空白鍵會輸出「武」，we+Enter 會輸出「we」
 #       We+空白鍵會輸出「We」，We+Enter 也會輸出「We」
 speller:
-  alphabet: "abcdefghijklmnopqrstuvwxyz.,'[]ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+  alphabet: "abcdefghijklmnopqrstuvwxyz.,'[]"
   max_code_length: 5
   auto_select: false
   use_space: true
 
 translator:
   dictionary: bosiannmih
-  # 如果要讓所有的字根都可以輸入，可以把 enable_charset_filter 改成 false
+  # 如果要所有的字(也就是不包含在預設字型裡的字)都出現在選字視窗，可以把 enable_charset_filter 改成 false
   enable_charset_filter: true
   enable_encoder: false
   enable_commit_history: true
